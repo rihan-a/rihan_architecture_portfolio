@@ -1,5 +1,6 @@
 import React from "react";
 import MouseIcon from "../MouseIcon/MouseIcon";
+import "./Cover.css";
 
 function Cover() {
     return (
