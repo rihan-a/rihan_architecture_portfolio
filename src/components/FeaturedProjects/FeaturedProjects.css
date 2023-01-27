@@ -1,0 +1,25 @@
+.featured-projects-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-projects-text {
+    width: 40%;
+    font-size: 9vw;
+    color: white;
+    font-family: "Six Caps", sans-serif;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.featured-projects-imgs {
+    width: 40vw;
+    height: 40vw;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.featured-projects-imgs img {
+    height: 100%;
+}
