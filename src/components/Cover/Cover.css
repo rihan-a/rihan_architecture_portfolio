@@ -1,0 +1,36 @@
+.cover-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.cover {
+    background-image: url("/images/ATHORA_MUNICH_V1.jpg");
+    width: 98%;
+    height: 96%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(80%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cover h1 {
+    margin-top: -20px;
+    font-size: 80vh;
+    font-family: "Six Caps", sans-serif;
+    font-weight: 100;
+    color: rgb(16, 16, 16);
+}
+
+.mouse-icon-row {
+    bottom: 55px;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+}
