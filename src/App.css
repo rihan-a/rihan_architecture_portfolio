@@ -7,3 +7,8 @@
 body {
     background-color: rgb(16, 16, 16);
 }
+
+.main-container {
+    width: 98%;
+    margin: auto;
+}
