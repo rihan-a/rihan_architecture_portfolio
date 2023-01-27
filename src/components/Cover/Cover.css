@@ -25,6 +25,11 @@
     font-size: 80vh;
     font-family: "Six Caps", sans-serif;
     font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+    appearance: none;
     color: rgb(16, 16, 16);
 }
 
