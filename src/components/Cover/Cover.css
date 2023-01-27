@@ -7,7 +7,7 @@
 }
 
 .cover {
-    background-image: url("/images/ATHORA_MUNICH_V1.jpg");
+    background-image: url("../../../public/images/ATHORA_MUNICH_V1.jpg");
     width: 98%;
     height: 96%;
     background-repeat: no-repeat;
