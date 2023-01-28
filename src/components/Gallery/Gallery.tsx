@@ -4,7 +4,7 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 function Gallery() {
     return (
-        <div>
+        <div className="gallery-container main-container">
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
