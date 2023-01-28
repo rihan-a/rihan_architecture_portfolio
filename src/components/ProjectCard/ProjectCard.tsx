@@ -1,3 +1,6 @@
+// PROJECT CARD
+// Component to render project img and title as a card in Project Gallery
+
 import React from "react";
 import "./ProjectCard.css";
 
@@ -7,14 +10,14 @@ interface IProps {
     title: string;
 }
 
-function ProjectCard(props: IProps) {
+function ProjectCard({ coverImg, title }: IProps) {
     return (
         <div className="project-card-container">
             <div className="project-card-img">
-                <img src={props.coverImg} alt="" />
+                <img src={coverImg} alt="" />
             </div>
             <div className="project-title">
-                <h4>{props.title}</h4>
+                <h4>{title}</h4>
             </div>
         </div>
     );
