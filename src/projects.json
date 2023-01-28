@@ -28,5 +28,35 @@
             "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
             "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
         ]
+    },
+    {
+        "id": 2,
+        "title": "Project Name",
+        "desc": " text text text text text",
+        "year": 2022,
+        "location": "germany",
+        "client": "LAVA is shit",
+        "type": "architecture",
+        "role": "designer",
+        "images": [
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Project Name",
+        "desc": " text text text text text",
+        "year": 2022,
+        "location": "germany",
+        "client": "LAVA is shit",
+        "type": "architecture",
+        "role": "designer",
+        "images": [
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+        ]
     }
 ]
