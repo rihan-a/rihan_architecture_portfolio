@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "title": "DEUTSCHER GARTEN / FLORIADE EXPO 2022",
+        "desc": "Following the theme of flora and in line with our general philosophy, landscape and building form a strong unity. This is most evident in the visitor’s experience: landscape and building are perceived as a unityandmergesmoothlyintoeachother.buildingonlypartlyclosed, foundation only partly, climatic unity, formal-aesthetic/design. In addition, the building and the landscape form a functional unity and work closely together in a symbiotic relationship.",
+        "year": 2022,
+        "location": "Netherlands",
+        "client": "LAVA Berlin",
+        "type": "Architecture Competition",
+        "role": "Architect / Designer",
+        "images": [
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Project Name",
+        "desc": " text text text text text",
+        "year": 2022,
+        "location": "germany",
+        "client": "LAVA is shit",
+        "type": "architecture",
+        "role": "designer",
+        "images": [
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
+            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+        ]
+    }
+]
