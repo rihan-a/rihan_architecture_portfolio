@@ -1,62 +1,132 @@
 [
     {
         "id": 0,
-        "title": "DEUTSCHER GARTEN / FLORIADE EXPO 2022",
-        "desc": "Following the theme of flora and in line with our general philosophy, landscape and building form a strong unity. This is most evident in the visitor’s experience: landscape and building are perceived as a unityandmergesmoothlyintoeachother.buildingonlypartlyclosed, foundation only partly, climatic unity, formal-aesthetic/design. In addition, the building and the landscape form a functional unity and work closely together in a symbiotic relationship.",
-        "year": 2022,
-        "location": "Netherlands",
-        "client": "LAVA Berlin",
-        "type": "Architecture Competition",
+        "title": "CAVALLINO BIANCO",
+        "desc": "The hotel created on these special characteristics of the place in its narrative structure. Approaching from the north-west, deep into the dense pine forest to create a magical place with an innovative tree house on dunes. The character of building changes over the course of the year in the various seasons in which there are depending on the season of different colors, seasonal crops and partly from the associated forest animals and birds. Visitors will be a part of the natural environment, which is already is characterized by its tree-like character.",
+        "year": 2019,
+        "location": "Caorle, Italy",
+        "client": "GRAFT Berlin",
+        "type": "Architecture - competition",
         "role": "Architect / Designer",
         "images": [
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+            "https://www.dropbox.com/s/l1not7a8xb7e2mo/092_CAVALLINO_V4_P.jpg?raw=1",
+            "https://www.dropbox.com/s/dz2040q0q3ti08y/092_CAVALLINO_V2_P_low.jpg?raw=1",
+            "https://www.dropbox.com/s/8mxvxkvpp2bu7re/092_CAVALLINO_V1_P_low.jpg?raw=1",
+            "https://www.dropbox.com/s/0noigmn97o9tjev/092_CAVALLINO_V3_P.jpg?raw=1",
+            "https://www.dropbox.com/s/v438tqpysabut35/092_CAVALLINO_V5_P.jpg?raw=1",
+            "https://www.dropbox.com/s/ucq84h1iyue2xlg/EG.jpg?raw=1",
+            "https://www.dropbox.com/s/gyansq5znzoj7zu/GRAFT_CAVALLINO%20BIANCO%20FAMILY%20SPA%20BEACH%20RESORT-38.jpg?raw=1",
+            "https://www.dropbox.com/s/qogtxurw3bq6dtd/GRAFT_CAVALLINO%20BIANCO%20FAMILY%20SPA%20BEACH%20RESORT-51.jpg?raw=1"
         ]
     },
     {
         "id": 1,
-        "title": "Project Name",
-        "desc": " text text text text text",
-        "year": 2022,
-        "location": "germany",
-        "client": "LAVA is shit",
-        "type": "architecture",
-        "role": "designer",
+        "title": "ATHORA - Green Oasis",
+        "desc": " The formally calm massing and facade of the new building on Thierschstrasse closes the edge of the block in a natural way and respects the character of the grown context of the urban quarter. The design condenses its creative ambitions as well as the visitor’s attention, above all in the particularly readable public spaces that lead the residents into the green interior of the quarter. The redesign of the ensemble at the intersection of Thirschstrasse and Liebherrstrasse and its connecting inner courtyard will create new residential format for the 21st century.",
+        "year": 2019,
+        "location": "Munich, Germany",
+        "client": "GRAFT Berlin",
+        "type": "Architecture - Competition",
+        "role": "Architect / Designer",
         "images": [
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+            "https://www.dropbox.com/s/8a95ina5zsqxzb0/ATHORA_MUNICH_V1.jpg?raw=1",
+            "https://www.dropbox.com/s/f9i7xg66xgf5uw6/190115_Athora%20Boards_IFUP-1.jpg?raw=1",
+            "https://www.dropbox.com/s/k9h593b8u9ju2hz/ATHORA_MUNICH_V3.jpg?raw=1",
+            "https://www.dropbox.com/s/f14n6ngfm9m4fcp/GRAFT_ATHORA_FloorPlans_EG_1-200.jpg?raw=1",
+            "https://www.dropbox.com/s/n8tjbcp4tc5gy6v/GRAFT_ATHORA_FloorPlans_OG4_1-200.jpg?raw=1",
+            "https://www.dropbox.com/s/riy6mfabs4ybhtw/GRAFT_ATHORA_Sonnenstrahlung%201.jpg?raw=1"
         ]
     },
     {
         "id": 2,
-        "title": "Project Name",
-        "desc": " text text text text text",
-        "year": 2022,
-        "location": "germany",
-        "client": "LAVA is shit",
-        "type": "architecture",
-        "role": "designer",
+        "title": "Mercedes-Benz Canteen",
+        "desc": " The project located in the heart of the Untertürkheim plant for Daimler AG in Stuttgart, surrounded by production factories and the company’s headquarter. Due to the unattractive surroundings on the three sides of the plot, the new canteen building designed to face a neighboring newly developed building with a slightly asymmetrical recessed glass façade, to form a communicative dialogue with building 137, creating a central meeting space as an urban square. At the same time, it‘s also a welcoming gesture for the main entrance. A structural element star-like shape, holding and wrapping the building together, and adding to its spatial qualities. The ground floor on all sides is recessed to the inside, to create a spatial expansion for the very narrow surrounding streets.",
+        "year": 2017,
+        "location": "Stuttgart, Germany",
+        "client": "RKW + Düsseldorf",
+        "type": "Architecture - Compeition ",
+        "role": "Designer / Team lead",
         "images": [
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+            "https://www.dropbox.com/s/4l0oijkqajie33z/Nightpres.jpg?raw=1",
+            "https://www.dropbox.com/s/bi4uniymef8ucs2/interior01.jpg?raw=1",
+            "https://www.dropbox.com/s/7dh1wjv3my9fkzz/Prespektive.jpg?raw=1",
+            "https://www.dropbox.com/s/ktf9rs515dyfxb5/Daimler-floorplan2.jpg?raw=1",
+            "https://www.dropbox.com/s/6n1q6b8hfcatadg/OG01.jpg?raw=1",
+            "https://www.dropbox.com/s/3d586b0hhsyws6a/Daimler-floorplan.jpg?raw=1",
+            "https://www.dropbox.com/s/32xmqigl1sv1z1f/170511_Abgabe_A1_Daimler-1.jpg?raw=1"
         ]
     },
     {
         "id": 3,
-        "title": "Project Name",
-        "desc": " text text text text text",
-        "year": 2022,
-        "location": "germany",
-        "client": "LAVA is shit",
-        "type": "architecture",
-        "role": "designer",
+        "title": "RKW+ Office ",
+        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2017,
+        "location": "Düsseldorf, Germany",
+        "client": "RKW Architekture +",
+        "type": "Architecture",
+        "role": "Designer",
         "images": [
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1394.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1395.jpg?raw=1",
-            "https://www.dropbox.com/s/hc7sal2bpfptxvg/DSC_1396.jpg?raw=1"
+            "https://www.dropbox.com/s/ilh9jbezprofpes/nigh4.jpg?raw=1",
+            "https://www.dropbox.com/s/zxhey7umf84whtr/Difusse02.jpg?raw=1",
+            "https://www.dropbox.com/s/c4nw108filjfals/lageplan.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "CHEIL MEMORIAL MUSEUM",
+        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2016,
+        "location": "DAEGU, KOREA",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "type": "Exhibition Design",
+        "role": "Designer",
+        "images": [
+            "https://www.dropbox.com/s/vrr5ush93m1jisk/CHEIL%20MEMORIAL%20CENTER_MAIN_a.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "CHEIL MEMORIAL MUSEUM",
+        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2016,
+        "location": "DAEGU, KOREA",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "type": "Exhibition Design",
+        "role": "Designer",
+        "images": [
+            "https://www.dropbox.com/s/vrr5ush93m1jisk/CHEIL%20MEMORIAL%20CENTER_MAIN_a.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "CHEIL MEMORIAL MUSEUM",
+        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2016,
+        "location": "DAEGU, KOREA",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "type": "Exhibition Design",
+        "role": "Designer",
+        "images": [
+            "https://www.dropbox.com/s/vrr5ush93m1jisk/CHEIL%20MEMORIAL%20CENTER_MAIN_a.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "CHEIL MEMORIAL MUSEUM",
+        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2016,
+        "location": "DAEGU, KOREA",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "type": "Exhibition Design",
+        "role": "Designer",
+        "images": [
+            "https://www.dropbox.com/s/vrr5ush93m1jisk/CHEIL%20MEMORIAL%20CENTER_MAIN_a.jpg?raw=1",
+            "https://www.dropbox.com/s/7pjbryg0absj0jd/CHEIL%20MEMORIAL%20CENTER_MAIN_CAM07.jpg?raw=1",
+            "https://www.dropbox.com/s/wlvnf07fnec590n/CHEIL%20MEMORIAL%20CENTER_MAIN_CAM08.jpg?raw=1",
+            "https://www.dropbox.com/s/elkscghois8xj8e/CHEIL%20MEMORIAL%20CENTER_MAINa.jpg?raw=1",
+            "https://www.dropbox.com/s/x7nrljpgq09k3x0/CHEIL%20MEMORIAL%20CENTER_MAINfvf.jpg?raw=1",
+            "https://www.dropbox.com/s/47b97dyn03yyhfs/2016-01-a.jpg?raw=1",
+            "https://www.dropbox.com/s/mvbnjm3503xfj2z/2016-01-b.jpg?raw=1"
         ]
     }
 ]
