@@ -44,7 +44,7 @@
         "year": 2017,
         "location": "Stuttgart, Germany",
         "client": "RKW + Düsseldorf",
-        "type": "Architecture - Compeition ",
+        "type": "Architecture - Compeition",
         "role": "Designer / Team lead",
         "images": [
             "https://www.dropbox.com/s/4l0oijkqajie33z/Nightpres.jpg?raw=1",
@@ -73,35 +73,42 @@
     },
     {
         "id": 4,
-        "title": "CHEIL MEMORIAL MUSEUM",
-        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
-        "year": 2016,
-        "location": "DAEGU, KOREA",
-        "client": "Cheil Germany - SAMSUNG Europe",
-        "type": "Exhibition Design",
-        "role": "Designer",
+        "title": "KAP HORN TOWER",
+        "desc": "The overall objective of the present design is to create an extraordinary and novel fusion of future urban density at Cape Horn Tower with the small scale and accessibility that characterizes the entire area of the W8 today. Kiel itself will become the model for a continuous open and public space extending from the south adjacent green areas as a topographical landscape through the entire competition area, also pulls the open foyer and meeting rooms of the hotel and the innovative office areas and penetrates its vertical graduation to the beacon of the roof top bar.",
+        "year": 2018,
+        "location": "Kiel, Germany",
+        "client": "GRAFT Berlin",
+        "type": "Architecture - Compeition",
+        "role": "Architect / Designer",
         "images": [
-            "https://www.dropbox.com/s/vrr5ush93m1jisk/CHEIL%20MEMORIAL%20CENTER_MAIN_a.jpg?raw=1"
+            "https://www.dropbox.com/s/gup5ydqqmx81wfb/kiel%20tower%20render.jpg?raw=1",
+            "https://www.dropbox.com/s/oj2u06bsxopouu3/181106_Siteplan%20Main%20cropped2.jpg?raw=1",
+            "https://www.dropbox.com/s/ab4c0la4l86d9q1/181120_Finalpresentation_Graft-37.jpg?raw=1",
+            "https://www.dropbox.com/s/jjiislomli0jlwm/181120_Finalpresentation_Graft-32.jpg?raw=1",
+            "https://www.dropbox.com/s/9qbtvi2tf95z8kq/diagram-kaphorn.png?raw=1"
         ]
     },
     {
         "id": 5,
-        "title": "CHEIL MEMORIAL MUSEUM",
+        "title": "FOLDED CORALS",
         "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
-        "year": 2016,
+        "year": 2014,
         "location": "DAEGU, KOREA",
-        "client": "Cheil Germany - SAMSUNG Europe",
-        "type": "Exhibition Design",
+        "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "type": "Product Design",
         "role": "Designer",
         "images": [
-            "https://www.dropbox.com/s/vrr5ush93m1jisk/CHEIL%20MEMORIAL%20CENTER_MAIN_a.jpg?raw=1"
+            "https://www.dropbox.com/s/2ki9gttzz8iysne/MAIN.jpg?raw=1",
+            "https://www.dropbox.com/s/i5jhfvcpgbas4t0/PROCESS.jpg?raw=1",
+            "https://www.dropbox.com/s/acwhti9sld9ccx4/PLANS.jpg?raw=1",
+            "https://www.dropbox.com/s/ugo4spi1b7efki9/INSPIRATIONS.jpg?raw=1"
         ]
     },
     {
         "id": 6,
         "title": "CHEIL MEMORIAL MUSEUM",
         "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
-        "year": 2016,
+        "year": 2017,
         "location": "DAEGU, KOREA",
         "client": "Cheil Germany - SAMSUNG Europe",
         "type": "Exhibition Design",
