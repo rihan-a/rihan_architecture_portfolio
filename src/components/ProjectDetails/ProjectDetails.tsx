@@ -21,6 +21,25 @@ function ProjectDetails() {
                         amet numquam repudiandae error sapiente magni odio sint.
                     </p>
                 </div>
+
+                <div className="project-facts-wrapper">
+                    <div className="project-fact">
+                        <p className="fact">YEAR</p>
+                        <p className="value">2022</p>
+                    </div>
+                    <div className="project-fact">
+                        <p className="fact">CLIENT</p>
+                        <p className="value">LAVA</p>
+                    </div>
+                    <div className="project-fact">
+                        <p className="fact">PROJECT</p>
+                        <p className="value">ARCHITECTURE</p>
+                    </div>
+                    <div className="project-fact">
+                        <p className="fact">ROLE</p>
+                        <p className="value">DESIGNER</p>
+                    </div>
+                </div>
             </div>
         </section>
     );
