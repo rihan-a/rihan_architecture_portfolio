@@ -1,15 +1,18 @@
 import React from "react";
 import "./App.css";
-import Cover from "./components/Cover/Cover";
-import FeaturedProjects from "./components/FeaturedProjects/FeaturedProjects";
-import Gallery from "./components/Gallery/Gallery";
+import HomePage from "./components/HomePage/HomePage";
+import ProjectPage from "./components/ProjectPage/ProjectPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
         <>
-            <Cover />
-            <FeaturedProjects />
-            <Gallery />
+            <HomePage />
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/project" element={<ProjectPage />}></Route>
+                </Routes>
+            </BrowserRouter>
         </>
     );
 }
