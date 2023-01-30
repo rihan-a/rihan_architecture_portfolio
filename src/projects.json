@@ -81,8 +81,8 @@
         "type": "Architecture - Compeition",
         "role": "Architect / Designer",
         "images": [
-            "https://www.dropbox.com/s/gup5ydqqmx81wfb/kiel%20tower%20render.jpg?raw=1",
             "https://www.dropbox.com/s/oj2u06bsxopouu3/181106_Siteplan%20Main%20cropped2.jpg?raw=1",
+            "https://www.dropbox.com/s/gup5ydqqmx81wfb/kiel%20tower%20render.jpg?raw=1",
             "https://www.dropbox.com/s/ab4c0la4l86d9q1/181120_Finalpresentation_Graft-37.jpg?raw=1",
             "https://www.dropbox.com/s/jjiislomli0jlwm/181120_Finalpresentation_Graft-32.jpg?raw=1",
             "https://www.dropbox.com/s/9qbtvi2tf95z8kq/diagram-kaphorn.png?raw=1"
@@ -106,15 +106,20 @@
     },
     {
         "id": 6,
-        "title": "CHEIL MEMORIAL MUSEUM",
-        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
-        "year": 2017,
-        "location": "DAEGU, KOREA",
-        "client": "Cheil Germany - SAMSUNG Europe",
-        "type": "Exhibition Design",
+        "title": "MX3D Printed Bridge",
+        "desc": "MX3D research is aiming to 3D print a fully functional pedestrian steel bridge in the heart of Amsterdam to showcase the revolutionary technology of robotic 3D printing. The research equips industrial multi-axis robots with 3D tools and develops the software to control them. This technique allows to 3D print strong, complex and gracious structures from small parts to large bridges.The Design process inspired by nature complex systems, where in nature shape is cheap, and the material is expensive. Topology optimization technique is used to generate the bridge geometry with optimum structural strength and minimum amount of material resulting in an intricate lightweight structure.",
+        "year": 2014,
+        "location": "Amsterdam, Netherlands",
+        "client": "JORISLAARMAN Lab",
+        "type": "Industrial Design",
         "role": "Designer",
         "images": [
-            "https://www.dropbox.com/s/vrr5ush93m1jisk/CHEIL%20MEMORIAL%20CENTER_MAIN_a.jpg?raw=1"
+            "https://www.dropbox.com/s/vlh1i9fjj2bhvc2/3D-print-steel-bridge-in-Amsterdam-1500x630.jpg?raw=1",
+            "https://www.dropbox.com/s/qezubp9087opzmz/Elevation.jpg?raw=1",
+            "https://www.dropbox.com/s/7vmr9tm5t5b7a4i/2ds2.jpg?raw=1",
+            "https://www.dropbox.com/s/h105znz408kmice/hello-robot-exhibition-design-technology-vitra-design-museum_exhibition_dezeen_2364_col_5-1.jpg?raw=1",
+            "https://www.dropbox.com/s/69kgimmkjt4x5y9/frame-1%20kopie.jpg?raw=1",
+            "https://www.dropbox.com/s/exg8opnwule0s78/try03a.jpg?raw=1"
         ]
     },
     {
@@ -134,6 +139,27 @@
             "https://www.dropbox.com/s/x7nrljpgq09k3x0/CHEIL%20MEMORIAL%20CENTER_MAINfvf.jpg?raw=1",
             "https://www.dropbox.com/s/47b97dyn03yyhfs/2016-01-a.jpg?raw=1",
             "https://www.dropbox.com/s/mvbnjm3503xfj2z/2016-01-b.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "EMERGING HABITAT",
+        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "year": 2014,
+        "location": "KIRIBATI ISLANDS",
+        "client": "HOCHSCHULE ANHALT DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "type": "Architecture",
+        "role": "Architect / Computional Designer",
+        "images": [
+            "https://www.dropbox.com/s/cqjnyz652zdyni0/a22.jpg?raw=1",
+            "https://www.dropbox.com/s/yktfkuezk6fis9y/DIAGRAM03edit.jpg?raw=1",
+            "https://www.dropbox.com/s/y7gruat0ek9bakx/DIAGRAM03.jpg?raw=1",
+            "https://www.dropbox.com/s/5z5dlivlatib605/UNITS2.jpg?raw=1",
+            "https://www.dropbox.com/s/nvmrhh8q9d95737/b3.jpg?raw=1",
+            "https://www.dropbox.com/s/nutlvzfb3t6zabb/IMG_0008.JPG?raw=1",
+            "https://www.dropbox.com/s/sy9m453ii0rvme4/IMG_9992.jpg?raw=1",
+            "https://www.dropbox.com/s/bz9uqszx72g64ux/SECTION02_1.jpg?raw=1",
+            "https://www.dropbox.com/s/ti76jstt2z079gb/3D%20PRINTING01.jpg?raw=1"
         ]
     }
 ]
