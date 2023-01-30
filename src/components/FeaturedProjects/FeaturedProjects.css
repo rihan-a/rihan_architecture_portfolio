@@ -1,5 +1,5 @@
 .featured-projects-container {
-    margin: 40px auto 50px;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
