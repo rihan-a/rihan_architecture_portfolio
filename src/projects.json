@@ -125,7 +125,7 @@
     {
         "id": 7,
         "title": "CHEIL MEMORIAL MUSEUM",
-        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "desc": "Visitors are introduced to the difficult situation of Korea through a timeline before, during and shortly after the war. The first room is very dark as a representation of the harsh conditions in the country at that time. Coming into the main hall, visitors notice that the material is changing gradually, the darkness of the past is more and more fading to bright, revealed through fixtures which tell the foundation story of the company. Towards the end of the room, the bright material outweighs the dark ones, symbolizing the recent achievements brought to the country by the company.",
         "year": 2016,
         "location": "DAEGU, KOREA",
         "client": "Cheil Germany - SAMSUNG Europe",
@@ -144,22 +144,40 @@
     {
         "id": 8,
         "title": "EMERGING HABITAT",
-        "desc": " A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "desc": "A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
         "year": 2014,
         "location": "KIRIBATI ISLANDS",
         "client": "HOCHSCHULE ANHALT DIA DESSAU INSITUTE OF ARCHITECTURE",
         "type": "Architecture",
         "role": "Architect / Computional Designer",
         "images": [
+            "https://www.dropbox.com/s/nvmrhh8q9d95737/b3.jpg?raw=1",
             "https://www.dropbox.com/s/cqjnyz652zdyni0/a22.jpg?raw=1",
             "https://www.dropbox.com/s/yktfkuezk6fis9y/DIAGRAM03edit.jpg?raw=1",
             "https://www.dropbox.com/s/y7gruat0ek9bakx/DIAGRAM03.jpg?raw=1",
             "https://www.dropbox.com/s/5z5dlivlatib605/UNITS2.jpg?raw=1",
-            "https://www.dropbox.com/s/nvmrhh8q9d95737/b3.jpg?raw=1",
             "https://www.dropbox.com/s/nutlvzfb3t6zabb/IMG_0008.JPG?raw=1",
             "https://www.dropbox.com/s/sy9m453ii0rvme4/IMG_9992.jpg?raw=1",
             "https://www.dropbox.com/s/bz9uqszx72g64ux/SECTION02_1.jpg?raw=1",
+            "https://www.dropbox.com/s/kaddotow0qi9v69/A7s.jpg?raw=1",
             "https://www.dropbox.com/s/ti76jstt2z079gb/3D%20PRINTING01.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "VOLKSWAGEN B14 HAUS",
+        "desc": "The project located on the outskirts of the city of Braunschweig Germany, in Volkswagen Financial Campus. Two adjacent buildings connected together with a common ground floor which includes a Canteen for 600 seats and offices, while the seven-story building includes only Offices and meeting rooms, and the other 3 stories includes Seminars and Training rooms.",
+        "year": 2017,
+        "location": "Braunschweig, Germany",
+        "client": "RKW + Düsseldorf",
+        "type": "Architecture",
+        "role": "Architect / Designer",
+        "images": [
+            "https://www.dropbox.com/s/lbti1uso13nsczn/Kam%201-Edit03.jpg?raw=1",
+            "https://www.dropbox.com/s/8x385xl0xxkt3z6/Kam%202-Edit02.jpg?raw=1",
+            "https://www.dropbox.com/s/o8dbxlqq0zr3hg9/E00.jpg?raw=1",
+            "https://www.dropbox.com/s/sv2mi23ac4th7jy/Section02.jpg?raw=1",
+            "https://www.dropbox.com/s/diaab88hz2cnhu6/170829_Fassaden%20Varianten.jpg?raw=1"
         ]
     }
 ]
