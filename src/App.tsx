@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
-import HomePage from "./components/HomePage/HomePage";
-import ProjectPage from "./components/ProjectPage/ProjectPage";
+import Home from "./components/Home/Home";
+import Project from "./components/Project/Project";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
     return (
         <>
-            <HomePage />
+            <Home />
             <BrowserRouter>
                 <Routes>
-                    <Route path="/project" element={<ProjectPage />}></Route>
+                    <Route path="/project" element={<Project />}></Route>
                 </Routes>
             </BrowserRouter>
         </>
