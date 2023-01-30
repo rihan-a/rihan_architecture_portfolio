@@ -2,6 +2,7 @@
     width: 24%;
     aspect-ratio: 1/1;
     position: relative;
+    margin-top: 20px;
 }
 
 .project-card-img {
