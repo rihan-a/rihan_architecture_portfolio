@@ -3,16 +3,25 @@
 
 import React from "react";
 import "./ProjectCard.css";
+import { useNavigate } from "react-router-dom";
 
+// Props types interface
 interface IProps {
-    key: number;
     coverImg: string;
     title: string;
+    id: number;
 }
 
-function ProjectCard({ coverImg, title }: IProps) {
+function ProjectCard({ coverImg, title, id }: IProps) {
+    const navigate = useNavigate();
+
+    // function to open clicked project page
+    const openProject = () => {
+        navigate(`/project/${id}`);
+    };
+
     return (
-        <div className="project-card-container">
+        <div className="project-card-container" onClick={openProject}>
             <div className="project-card-img">
                 <img src={coverImg} alt="" />
             </div>
