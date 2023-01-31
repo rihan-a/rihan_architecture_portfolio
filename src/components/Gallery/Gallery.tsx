@@ -15,6 +15,7 @@ function Gallery() {
                         key={project.id}
                         coverImg={project.images[0]}
                         title={project.title}
+                        id={project.id}
                     />
                 );
             })}
