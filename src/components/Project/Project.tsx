@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
-import { useSelector } from "react-redux";
-
 import projects from "../../projects.json";
 
+// project data types interface
 interface projectType {
     id: number | null;
     title: string;
@@ -17,9 +17,8 @@ interface projectType {
 }
 
 function Project() {
-    const projectId: number = useSelector((state: any) => {
-        return state.project.projectId;
-    });
+    // extract project id from params
+    const { id } = useParams();
 
     const [projectData, setProjectData] = useState<projectType>({
         id: null,
@@ -34,11 +33,13 @@ function Project() {
     });
 
     useEffect(() => {
+        // filter projects list to get the selected project by id
         const projectData = projects.filter((project: projectType) => {
-            return projectId === project.id;
+            return Number(id) === project.id;
         });
+        // store project data
         setProjectData(projectData[0]);
-    }, [projectId]);
+    }, [id]);
 
     return <ProjectDetails projectData={projectData} />;
 }
