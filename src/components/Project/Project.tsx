@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import NavBar from "../NavBar/NavBar";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
 import projects from "../../projects.json";
 import "./Project.css";
@@ -44,6 +45,7 @@ function Project() {
 
     return (
         <>
+            <NavBar />
             <ProjectDetails projectData={projectData} />
             {projectData.images.map((imageUrl) => {
                 return (
