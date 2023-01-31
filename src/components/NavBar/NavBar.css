@@ -2,5 +2,19 @@
     height: 70px;
     width: 75%;
     margin: auto;
-    background-color: bisque;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav-bar img {
+    height: 100%;
 }
