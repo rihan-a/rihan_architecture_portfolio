@@ -1,43 +1,55 @@
+// PROJECT DETAILS
+// Component to render all project details
+
 import React from "react";
 import "./ProjectDetails.css";
 
-function ProjectDetails() {
+interface IProps {
+    projectData: {
+        id: number | null;
+        title: string;
+        desc: string;
+        year: number | null;
+        location: string;
+        client: string;
+        type: string;
+        role: string;
+        images: string[];
+    };
+}
+
+function ProjectDetails({ projectData }: IProps) {
     return (
-        <section className="project-wrapper main-container">
-            <div className="project-text-wrapper">
+        <section className="project-wrapper">
+            <div className="project-text-wrapper main-container">
                 <div className="project-name">
-                    <h3>Project Name</h3>
+                    <h3>{projectData.title}</h3>
                 </div>
 
                 <div className="project-desc">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Saepe dolore incidunt, sed sequi placeat eaque unde! Sit
-                        fugiat vitae rem nemo praesentium iure quas quasi eum, a
-                        saepe, adipisci voluptatibus. Lorem ipsum, dolor sit
-                        amet consectetur adipisicing elit. Nam quod libero
-                        quaerat quibusdam perferendis accusamus blanditiis
-                        quisquam sint autem. Officia necessitatibus dignissimos
-                        amet numquam repudiandae error sapiente magni odio sint.
-                    </p>
+                    <p>{projectData.desc}</p>
                 </div>
 
                 <div className="project-facts-wrapper">
                     <div className="project-fact">
                         <p className="fact">YEAR</p>
-                        <p className="value">2022</p>
+                        <p className="value">{projectData.year}</p>
+                    </div>
+                    <div className="project-fact">
+                        <p className="fact">LOCATION</p>
+                        <p className="value">{projectData.location}</p>
                     </div>
                     <div className="project-fact">
                         <p className="fact">CLIENT</p>
-                        <p className="value">LAVA</p>
+                        <p className="value">{projectData.client}</p>
                     </div>
                     <div className="project-fact">
                         <p className="fact">PROJECT</p>
-                        <p className="value">ARCHITECTURE</p>
+                        <p className="value">{projectData.type}</p>
                     </div>
                     <div className="project-fact">
                         <p className="fact">ROLE</p>
-                        <p className="value">DESIGNER</p>
+                        <p className="value">{projectData.role}</p>
                     </div>
                 </div>
             </div>
