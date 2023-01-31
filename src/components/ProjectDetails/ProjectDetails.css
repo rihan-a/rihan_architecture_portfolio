@@ -3,8 +3,8 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    margin-top: 50px;
-    width: 95%;
+    margin: 50px auto;
+    width: 75%;
 }
 
 .project-name {
@@ -21,7 +21,7 @@
 
 .project-desc {
     height: 25%;
-    width: 60%;
+    /* width: 90%; */
     color: #9c9c9c;
     font-size: 1.3rem;
     font-weight: 200;
