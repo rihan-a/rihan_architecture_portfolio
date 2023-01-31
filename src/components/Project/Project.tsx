@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
 import projects from "../../projects.json";
+import "./Project.css";
 
 // project data types interface
 interface projectType {
@@ -41,7 +42,20 @@ function Project() {
         setProjectData(projectData[0]);
     }, [id]);
 
-    return <ProjectDetails projectData={projectData} />;
+    return (
+        <>
+            <ProjectDetails projectData={projectData} />
+            {projectData.images.map((imageUrl) => {
+                return (
+                    <img
+                        className="project-img"
+                        src={imageUrl}
+                        alt={projectData.title}
+                    />
+                );
+            })}
+        </>
+    );
 }
 
 export default Project;
