@@ -9,7 +9,7 @@ function NavBar() {
                 HOME
             </Link>
             <img src="/images/LOGO.png" alt="rihan-logo" />
-            <Link className="nav-bar-link" to="/">
+            <Link className="nav-bar-link" to="/contact">
                 CONTACT
             </Link>
         </div>
