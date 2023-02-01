@@ -44,7 +44,7 @@
         "year": 2017,
         "location": "Stuttgart, Germany",
         "client": "RKW + Düsseldorf",
-        "type": "Architecture - Compeition",
+        "type": "Architecture - Competition",
         "role": "Designer / Team lead",
         "images": [
             "https://www.dropbox.com/s/4l0oijkqajie33z/Nightpres.jpg?raw=1",
@@ -78,12 +78,13 @@
         "year": 2018,
         "location": "Kiel, Germany",
         "client": "GRAFT Berlin",
-        "type": "Architecture - Compeition",
+        "type": "Architecture - Competition",
         "role": "Architect / Designer",
         "images": [
+            "https://www.dropbox.com/s/hwz31cgd9ud09vi/kiel%20tower%20render2.jpg?raw=1",
             "https://www.dropbox.com/s/9g83sztkjqurfyw/181106_Siteplan%20Main%20cropped2.jpg?raw=1",
-            "https://www.dropbox.com/s/9qbtvi2tf95z8kq/diagram-kaphorn.png?raw=1",
             "https://www.dropbox.com/s/gup5ydqqmx81wfb/kiel%20tower%20render.jpg?raw=1",
+            "https://www.dropbox.com/s/9qbtvi2tf95z8kq/diagram-kaphorn.png?raw=1",
             "https://www.dropbox.com/s/jjiislomli0jlwm/181120_Finalpresentation_Graft-32.jpg?raw=1",
             "https://www.dropbox.com/s/ab4c0la4l86d9q1/181120_Finalpresentation_Graft-37.jpg?raw=1"
         ]
@@ -115,11 +116,13 @@
         "role": "Designer",
         "images": [
             "https://www.dropbox.com/s/vlh1i9fjj2bhvc2/3D-print-steel-bridge-in-Amsterdam-1500x630.jpg?raw=1",
+            "https://www.dropbox.com/s/h105znz408kmice/hello-robot-exhibition-design-technology-vitra-design-museum_exhibition_dezeen_2364_col_5-1.jpg?raw=1",
+            "https://www.dropbox.com/s/b1rta6ijw3b5lrf/ezgif.com-gif-maker.gif?raw=1",
             "https://www.dropbox.com/s/qezubp9087opzmz/Elevation.jpg?raw=1",
             "https://www.dropbox.com/s/7vmr9tm5t5b7a4i/2ds2.jpg?raw=1",
-            "https://www.dropbox.com/s/h105znz408kmice/hello-robot-exhibition-design-technology-vitra-design-museum_exhibition_dezeen_2364_col_5-1.jpg?raw=1",
             "https://www.dropbox.com/s/69kgimmkjt4x5y9/frame-1%20kopie.jpg?raw=1",
-            "https://www.dropbox.com/s/exg8opnwule0s78/try03a.jpg?raw=1"
+            "https://www.dropbox.com/s/exg8opnwule0s78/try03a.jpg?raw=1",
+            "https://www.dropbox.com/s/geryn6hv74afm6u/TRY02.jpg?raw=1"
         ]
     },
     {
@@ -153,13 +156,13 @@
         "images": [
             "https://www.dropbox.com/s/nvmrhh8q9d95737/b3.jpg?raw=1",
             "https://www.dropbox.com/s/cqjnyz652zdyni0/a22.jpg?raw=1",
+            "https://www.dropbox.com/s/5z5dlivlatib605/UNITS2.jpg?raw=1",
+            "https://www.dropbox.com/s/bz9uqszx72g64ux/SECTION02_1.jpg?raw=1",
             "https://www.dropbox.com/s/yktfkuezk6fis9y/DIAGRAM03edit.jpg?raw=1",
             "https://www.dropbox.com/s/y7gruat0ek9bakx/DIAGRAM03.jpg?raw=1",
-            "https://www.dropbox.com/s/5z5dlivlatib605/UNITS2.jpg?raw=1",
+            "https://www.dropbox.com/s/kaddotow0qi9v69/A7s.jpg?raw=1",
             "https://www.dropbox.com/s/nutlvzfb3t6zabb/IMG_0008.JPG?raw=1",
             "https://www.dropbox.com/s/sy9m453ii0rvme4/IMG_9992.jpg?raw=1",
-            "https://www.dropbox.com/s/bz9uqszx72g64ux/SECTION02_1.jpg?raw=1",
-            "https://www.dropbox.com/s/kaddotow0qi9v69/A7s.jpg?raw=1",
             "https://www.dropbox.com/s/ti76jstt2z079gb/3D%20PRINTING01.jpg?raw=1"
         ]
     },
@@ -178,6 +181,59 @@
             "https://www.dropbox.com/s/o8dbxlqq0zr3hg9/E00.jpg?raw=1",
             "https://www.dropbox.com/s/sv2mi23ac4th7jy/Section02.jpg?raw=1",
             "https://www.dropbox.com/s/diaab88hz2cnhu6/170829_Fassaden%20Varianten.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "DEUTSCHER GARTEN / FLORIADE EXPO 2022",
+        "desc": "Following the theme of flora and in line with our general philosophy, landscape and building form a strong unity. This is most evident in the visitor’s experience landscape and building are perceived as a unity and merge smoothly into eachother. building onlypartlyclosed, foundation only partly, climatic unity, formal-aesthetic/design. In addition, the building and the landscape form a functional unity and work closely together in a symbiotic relationship.",
+        "year": 2021,
+        "location": "Amsterdam, Netherlands",
+        "client": "LAVA Berlin",
+        "type": "Architecture - Competition",
+        "role": "Architect / Designer",
+        "images": [
+            "https://www.dropbox.com/s/84cmprmfkwkkdzp/Picture9.jpg?raw=1",
+            "https://www.dropbox.com/s/k2lsami50cojeb3/Picture1.jpg?raw=1",
+            "https://www.dropbox.com/s/p7js6t70stx4rl1/Picture4.jpg?raw=1",
+            "https://www.dropbox.com/s/ml6rqdy9s45rf22/Picture16.jpg?raw=1",
+            "https://www.dropbox.com/s/aa3qfh039pwr1pf/Picture7.jpg?raw=1",
+            "https://www.dropbox.com/s/7f83kqyt201qwzd/Picture10.jpg?raw=1",
+            "https://www.dropbox.com/s/7pa3lhogrr1r8uy/Picture13.jpg?raw=1",
+            "https://www.dropbox.com/s/ghzx82gld4wrbgv/Picture25.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "COURTHOUSE - COMPLEX",
+        "desc": "The courthouse designed to embody the meaning of transparency, through using semi-transparent glass, and carefully scaled massing. Its bold, modern vocabulary emphasizes openness both for users and passers-by. The building created under a cantilevered triangular shed, which acts as an element for the facade and also to provide enough shadows for the building users. The building contains three courtrooms on the ground floor, surrounding the spacious main entrance hall, and all of them have a direct connection to service rooms and individual entrances for all the different functions required by the building type",
+        "year": 2010,
+        "location": "Cairo, Egypt",
+        "client": "Ain-Shams University",
+        "type": "Architecture",
+        "role": "Architect / Designer",
+        "images": [
+            "https://www.dropbox.com/s/bdpt53ba8syr0g6/Main-view-nigh2.jpg?raw=1",
+            "https://www.dropbox.com/s/m5x0yvqewvkabmh/PLAN03.jpg?raw=1",
+            "https://www.dropbox.com/s/2cwy0yyfmb349qk/LAYOUT%202.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "IMMERSIVE",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis natus ab! Voluptatibus vitae cupiditate quaerat tenetur adipisci qui consequuntur nesciunt aspernatur quia, dolores iste, nobis error illo impedit voluptates.",
+        "year": 2015,
+        "location": "-",
+        "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "type": "Architecture Software",
+        "role": "Designer / Developer",
+        "images": [
+            "https://www.dropbox.com/s/gybhoxz1vq128l5/general.jpg?raw=1",
+            "https://www.dropbox.com/s/8x0gmtsr3dzeopr/IMAC-IMMERSIVE-B.jpg?raw=1",
+            "https://www.dropbox.com/s/oidoqhgr7y6cj31/immersive-diagram.jpg?raw=1",
+            "https://www.dropbox.com/s/y1qjiies2wiysyk/INTERFACE.jpg?raw=1",
+            "https://www.dropbox.com/s/3xser7ghmjbcop0/1.jpg?raw=1",
+            "https://www.dropbox.com/s/ycfh9unu17b1hmi/3.jpg?raw=1"
         ]
     }
 ]
