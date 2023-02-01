@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MouseIcon from "../MouseIcon/MouseIcon";
+import NavBar from "../NavBar/NavBar";
 import "./Cover.css";
 import projects from "../../projects.json";
 
@@ -16,19 +17,22 @@ function Cover() {
     }, []);
 
     return (
-        <div className="cover-wrapper">
-            <div
-                className="cover"
-                style={{
-                    backgroundImage: `url("${coverUrl}")`,
-                }}
-            >
-                <h1>PORTFOLIO</h1>
+        <>
+            <NavBar />
+            <div className="cover-wrapper">
+                <div
+                    className="cover"
+                    style={{
+                        backgroundImage: `url("${coverUrl}")`,
+                    }}
+                >
+                    <h1>PORTFOLIO</h1>
+                </div>
+                <div className="mouse-icon-row">
+                    <MouseIcon />
+                </div>
             </div>
-            <div className="mouse-icon-row">
-                <MouseIcon />
-            </div>
-        </div>
+        </>
     );
 }
 
