@@ -2,10 +2,13 @@
     height: 70px;
     width: 75%;
     margin: auto;
-    /* background-color: bisque; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .nav-bar-link {
@@ -13,6 +16,14 @@
     text-decoration: none;
     font-weight: 400;
     cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    transition: 0.1s ease-in;
+}
+
+.nav-bar-link:hover {
+    color: rgb(139, 139, 139);
 }
 
 .nav-bar img {
