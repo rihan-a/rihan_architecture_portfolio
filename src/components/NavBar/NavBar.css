@@ -34,3 +34,9 @@
 .nav-bar img {
     height: 100%;
 }
+
+@media (max-width: 768px) {
+    .nav-bar {
+        width: 95%;
+    }
+}
