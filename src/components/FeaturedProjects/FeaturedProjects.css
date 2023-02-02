@@ -26,3 +26,18 @@
 .featured-projects-imgs img {
     height: 100%;
 }
+
+@media (max-width: 768px) {
+    .featured-projects-container {
+        height: unset;
+        flex-direction: column;
+    }
+
+    .featured-projects-text h3 {
+        font-size: 9rem;
+        margin-left: 10px;
+    }
+    .featured-projects-imgs {
+        display: none;
+    }
+}
