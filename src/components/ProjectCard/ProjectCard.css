@@ -39,3 +39,11 @@
         Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
         "Helvetica Neue", sans-serif;
 }
+
+@media (max-width: 768px) {
+    .project-card-container {
+        width: 100%;
+        aspect-ratio: 1.4/1;
+        margin-top: 20px;
+    }
+}
