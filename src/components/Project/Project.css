@@ -13,3 +13,9 @@
     aspect-ratio: 1.8/1;
     border: 0;
 }
+
+@media (max-width: 768px) {
+    .project-img {
+        width: 90vw;
+    }
+}
