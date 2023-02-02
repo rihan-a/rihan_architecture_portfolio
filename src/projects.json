@@ -223,7 +223,7 @@
     {
         "id": 12,
         "title": "IMMERSIVE",
-        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis natus ab! Voluptatibus vitae cupiditate quaerat tenetur adipisci qui consequuntur nesciunt aspernatur quia, dolores iste, nobis error illo impedit voluptates.",
+        "desc": "Many contemporary architects have already accepted the notion that architecture is affected by the user. They have paid attention to the acts of the users and they have witnessed how their design is modified by their activities. Meanwhile in this research it’s been introduced a different perspective on the design process, which is the user point of view (POV), where the architect/designer can telepresence in real time, to another place, where he can act on behalf of the user, through the use of the powerful technology of the virtual reality and gaming industry techniques. The research is presenting a working software prototype'IMMERSIVE', an interactive design platform providing the architect/designer with a new perspectives for the design object, which enrich how the designers perceiving the design problem while walking through the designed space in a fully immersive environment. It also provides a collaborative three-dimensional environment for design and review between architects and different experts from other disciplines, this collaborative virtual environment enhance the communication and encourages co-operation, overcoming the barriers of space and time constraints. Through the use of virtual reality designers can explore a different layers of building information, which makes the design process more intuitive. A shared world of virtual reality offers a more sophisticated, interactive stimulating and engaging environment for architects and professionals alike- to communicate. Therefore it’s a prototype that facilitates this kind of collaboration.",
         "year": 2015,
         "location": "-",
         "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
@@ -238,5 +238,52 @@
             "https://www.dropbox.com/s/ycfh9unu17b1hmi/3.jpg?raw=1"
         ],
         "videos": ["https://player.vimeo.com/video/158826021?h=6a493a3198"]
+    },
+    {
+        "id": 13,
+        "title": "Face Scapes",
+        "desc": "Face Scapes is an innovative project that offers custom eye wear solutions through advanced 3D scanning technology. The project aims to revolutionize the traditional eye wear market by offering a personalized approach to designing glasses that fit the user's face perfectly. Using computer algorithms, Face Scapes 3D scans the user's face and generates a 3D model that is then used to design custom glasses tailored to the user's specific needs. This technology provides users with an unprecedented level of customization and comfort",
+        "year": 2013,
+        "location": "-",
+        "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
+        "type": "Digital Experiment",
+        "role": "Designer / Developer",
+        "images": [
+            "https://www.dropbox.com/s/bil32e95n3bejpd/dba-FACE-SCAPEdS-2.jpg?raw=1",
+            "https://www.dropbox.com/s/y404vdacvbtcwhf/dba-FACE-SCAPESf-1.jpg?raw=1",
+            "https://www.dropbox.com/s/zvrxuez9dwkqod1/output_4vDbWH.gif?raw=1",
+            "https://www.dropbox.com/s/ijlfh7v6725kj3q/dba-FACE-SCAPES1.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "TAS Residential Complex",
+        "desc": "The concept for the construction sites XIII and XV attaches particular importance to the integration of the structures into the future quarter at the Hörnbecken. In the concept for the TAS, new residential and flexible creative industries are being created for the 21st century. The parcelling of the large block edges into smaller units introduces an identity-creating element that simultaneously offers clear assignments of entrance situations, movement spaces, colonnade aisles and meeting points. A new interpretation of classic materials is also being considered for the façade. Here new brick structures and new interpretations of classical configurations are woven into an architectural context of small building structures.",
+        "year": 2019,
+        "location": "Kiel, Germany",
+        "client": "GRAFT Berlin",
+        "type": "Architecture - Competition",
+        "role": "Architect / Designer ",
+        "images": [
+            "https://www.dropbox.com/s/s1ib0pefjdi2ha8/tas01.jpg?raw=1",
+            "https://www.dropbox.com/s/5vxkz73kub0rx5p/tas02.jpg?raw=1",
+            "https://www.dropbox.com/s/3yyzk9f2vhoeq36/tas03.jpg?raw=1",
+            "https://www.dropbox.com/s/65bd2hcs13kf75g/tas05.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "HYUNDAI EXHIBITION GUIDELINE",
+        "desc": "Creating the signature hyundai experience, on eye-level be approachable, people experience an inviting and welcoming atmosphere and communication ideas that they can relate to. Create a feeling of inclusiveness. Invite for testing, doing, and touching. Real embrace life experience Celebrate the joys of the people’s lives in Hyundai’s brand spaces. Embrace a real life moment. Create experiences That feel natural and authentic. Emotional connect people experience. Enhance communication across all channels and foster community building, ratings, and sharing. Encourage people to connect with each other, with the products and the brand and make them share their moments.",
+        "year": 2019,
+        "location": "Worldwide",
+        "client": "GRAFT Berlin",
+        "type": "Architecture - Competition",
+        "role": "Architect / Designer ",
+        "images": [
+            "https://www.dropbox.com/s/i8b055wc2e571qb/hyundai01.jpg?raw=1",
+            "https://www.dropbox.com/s/z5keecn6bp92o3x/hyundai03.jpg?raw=1",
+            "https://www.dropbox.com/s/opmk6u5itwfuv12/hyundai05.jpg?raw=1"
+        ]
     }
 ]
