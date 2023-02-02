@@ -9,16 +9,18 @@ import { projectInterface } from "../../projectInterface";
 function Gallery() {
     return (
         <div className="gallery-container main-container">
-            {projects.map((project: projectInterface) => {
-                return (
-                    <ProjectCard
-                        key={project.id}
-                        coverImg={project.images[0]}
-                        title={project.title}
-                        id={project.id}
-                    />
-                );
-            })}
+            {projects
+                .sort((a, b) => 0.5 - Math.random())
+                .map((project: projectInterface) => {
+                    return (
+                        <ProjectCard
+                            key={project.id}
+                            coverImg={project.images[0]}
+                            title={project.title}
+                            id={project.id}
+                        />
+                    );
+                })}
         </div>
     );
 }
