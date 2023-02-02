@@ -5,3 +5,11 @@
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+.project-video {
+    display: block;
+    margin: auto;
+    width: 75%;
+    aspect-ratio: 1.8/1;
+    border: 0;
+}
