@@ -26,13 +26,13 @@
 @media (max-width: 768px) {
     .footer p {
         margin: auto;
-        width: 75%;
+        width: 95%;
         font-size: 0.7rem;
     }
     .footer {
         margin: auto;
         width: 100%;
-        height: 50px;
+        height: 65px;
         line-height: 20px;
         padding: 5px;
     }
