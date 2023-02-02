@@ -16,6 +16,7 @@ interface projectType {
     type: string;
     role: string;
     images: string[];
+    videos?: string[];
 }
 
 function Project() {
@@ -32,6 +33,7 @@ function Project() {
         type: "",
         role: "",
         images: [],
+        videos: [],
     });
 
     useEffect(() => {
@@ -47,6 +49,9 @@ function Project() {
         <>
             <NavBar />
             <ProjectDetails projectData={projectData} />
+
+            {/* -----  Render project images ------ */}
+
             {projectData.images.map((imageUrl) => {
                 return (
                     <img
@@ -56,6 +61,17 @@ function Project() {
                     />
                 );
             })}
+
+            {/* -----  Render project videos ------ */}
+
+            {projectData.videos && (
+                <iframe
+                    className="project-video"
+                    title="vimeo-player"
+                    src={projectData.videos[0]}
+                    allowFullScreen
+                ></iframe>
+            )}
         </>
     );
 }
