@@ -39,3 +39,19 @@
     height: 50px;
     width: 100%;
 }
+
+@media (max-width: 768px) {
+    .cover h1 {
+        margin-top: 120px;
+        width: 75%;
+        font-size: 70vw;
+        word-break: break-all;
+        line-height: 0.95;
+        text-align: center;
+        height: 100%;
+    }
+
+    .mouse-icon-row {
+        bottom: 35px;
+    }
+}
