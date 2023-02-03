@@ -1,14 +1,16 @@
 .featured-projects-container {
-    height: 100vh;
+    height: 100%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 100px auto;
 }
 
 .featured-projects-text h3 {
-    width: 60%;
+    width: 80%;
     font-size: 12rem;
-    color: rgb(210, 210, 210);
+    color: rgb(220, 220, 220);
     font-family: "Six Caps", sans-serif;
     font-weight: 100;
     font-style: unset;
@@ -17,8 +19,8 @@
 }
 
 .featured-projects-imgs {
-    width: 50%;
-    aspect-ratio: 1/1;
+    width: 80%;
+    aspect-ratio: 1.3/1;
     overflow: hidden;
     border-radius: 10px;
 }
