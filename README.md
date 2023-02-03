@@ -6,7 +6,7 @@ Frontend web app showcasing my architecture and design projects for the past 10 
 
 ## Demo
 
-https://rihan-architecture-portfolio.vercel.app
+www.rihan.info
 
 ##
 
