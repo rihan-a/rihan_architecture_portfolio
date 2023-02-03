@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./ContactForm.css";
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+const FORM_ENDPOINT =
+    "https://public.herotofu.com/v1/01067880-a3db-11ed-a31e-753411848f80";
 
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
@@ -22,6 +23,7 @@ const ContactForm = () => {
 
     return (
         <form
+            className="contact-form"
             action={FORM_ENDPOINT}
             onSubmit={handleSubmit}
             method="POST"
