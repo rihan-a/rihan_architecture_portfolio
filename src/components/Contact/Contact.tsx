@@ -5,10 +5,17 @@ import ContactForm from "../ContactForm/ContactForm";
 
 function Contact() {
     return (
-        <div>
+        <>
             <NavBar />
-            <ContactForm />
-        </div>
+            <section className="contact-container">
+                <div className="contact-msg">
+                    <h3>Would love to hear from you.</h3>
+                </div>
+                <div className="contact-form-container">
+                    <ContactForm />
+                </div>
+            </section>
+        </>
     );
 }
 
