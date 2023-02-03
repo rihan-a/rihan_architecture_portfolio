@@ -36,3 +36,24 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .contact-container {
+        height: unset;
+        flex-direction: column;
+    }
+
+    .contact-msg {
+        width: 90%;
+        height: 100%;
+    }
+    .contact-msg h3 {
+        font-size: 6rem;
+    }
+    .contact-form-container {
+        width: 90%;
+        height: unset;
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+}
