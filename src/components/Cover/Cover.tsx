@@ -2,17 +2,15 @@ import React, { useEffect, useState } from "react";
 import MouseIcon from "../MouseIcon/MouseIcon";
 import NavBar from "../NavBar/NavBar";
 import "./Cover.css";
-import projects from "../../projects.json";
+import coverImages from "../../coverImages.json";
 
 function Cover() {
     const [coverUrl, setCoverUrl] = useState<string>("");
 
     useEffect(() => {
-        let projectRandomNumber = Math.floor(Math.random() * 9);
-        let imageRandomNumber = Math.floor(Math.random() * 3);
+        let imageRandomNumber = Math.floor(Math.random() * 17);
+        const coverImageUrl = coverImages[0].coverImages[imageRandomNumber];
 
-        const coverImageUrl =
-            projects[projectRandomNumber].images[imageRandomNumber];
         setCoverUrl(coverImageUrl);
     }, []);
 
