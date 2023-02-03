@@ -1,0 +1,38 @@
+.contact-container {
+    width: 98%;
+    height: 77vh;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-msg {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-msg h3 {
+    font-size: 10rem;
+    font-family: "Six Caps", sans-serif;
+    font-weight: 200;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact-form-container {
+    width: 50%;
+    height: 100%;
+    background-image: url("../../../public/images/092_CAVALLINO_V3_P.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
