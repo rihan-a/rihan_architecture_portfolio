@@ -1,9 +1,10 @@
 import React from "react";
 import "./FeaturedProjects.css";
+import coverImages from "../../coverImages.json";
 
 function FeaturedProjects() {
     return (
-        <section className="featured-projects-container main-container">
+        <section className="featured-projects-container">
             <div className="featured-projects-text">
                 <h3>SELECTED WORKS 2010 / 2022</h3>
             </div>
