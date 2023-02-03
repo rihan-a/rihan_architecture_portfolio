@@ -8,7 +8,9 @@ function NavBar() {
             <Link className="nav-bar-link" to="/">
                 HOME
             </Link>
-            <img src="/images/LOGO.png" alt="rihan-logo" />
+            <div className="navbar-logo">
+                <img src="/images/LOGO.png" alt="rihan-logo" />
+            </div>
             <Link className="nav-bar-link" to="/contact">
                 CONTACT
             </Link>
