@@ -34,6 +34,17 @@ button {
     font-size: 1rem;
 }
 
+.thankyou-msg {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    font-size: 3rem;
+}
+
+.thankyou-msg h2 {
+    text-transform: uppercase;
+}
+
 @media (max-width: 768px) {
     .contact-form input,
     textarea,
