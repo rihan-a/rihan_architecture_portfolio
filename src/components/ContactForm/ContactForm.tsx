@@ -14,10 +14,10 @@ const ContactForm = () => {
 
     if (submitted) {
         return (
-            <>
+            <div className="thankyou-msg">
                 <h2>Thank you!</h2>
-                <div>We'll be in touch soon.</div>
-            </>
+                <p>I'll be in touch soon.</p>
+            </div>
         );
     }
 
