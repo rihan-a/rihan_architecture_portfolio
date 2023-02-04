@@ -4,33 +4,20 @@ import NavBar from "../NavBar/NavBar";
 import ProjectDetails from "../ProjectDetails/ProjectDetails";
 import projects from "../../projects.json";
 import "./Project.css";
-
-// project data types interface
-interface projectType {
-    id: number | null;
-    title: string;
-    desc: string;
-    year: number | null;
-    location: string;
-    client: string;
-    type: string;
-    role: string;
-    images: string[];
-    videos?: string[];
-}
+import { projectInterface } from "../../projectInterface";
 
 function Project() {
     // extract project id from params
     const { id } = useParams();
 
-    const [projectData, setProjectData] = useState<projectType>({
+    const [projectData, setProjectData] = useState<projectInterface>({
         id: null,
         title: "",
         desc: "",
         year: null,
         location: "",
         client: "",
-        type: "",
+        phase: "",
         role: "",
         images: [],
         videos: [],
@@ -38,7 +25,7 @@ function Project() {
 
     useEffect(() => {
         // filter projects list to get the selected project by id
-        const projectData = projects.filter((project: projectType) => {
+        const projectData = projects.filter((project: projectInterface) => {
             return Number(id) === project.id;
         });
         // store project data
