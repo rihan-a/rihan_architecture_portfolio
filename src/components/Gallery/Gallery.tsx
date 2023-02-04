@@ -4,14 +4,18 @@ import ProjectCard from "../ProjectCard/ProjectCard";
 
 import projects from "../../projects.json";
 
-import { projectInterface } from "../../projectInterface";
+interface projectCard {
+    id: number;
+    title: string;
+    images: string[];
+}
 
 function Gallery() {
     return (
         <div className="gallery-container main-container">
             {projects
                 .sort((a, b) => 0.5 - Math.random())
-                .map((project: projectInterface) => {
+                .map((project: projectCard) => {
                     return (
                         <ProjectCard
                             key={project.id}
