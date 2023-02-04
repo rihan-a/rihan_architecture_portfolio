@@ -1,11 +1,12 @@
 export interface projectInterface {
-    id: number;
+    id: number | null;
     title: string;
     desc: string;
-    year: number;
+    year: number | null;
     location: string;
     client: string;
-    type: string;
+    phase: string;
     role: string;
     images: string[];
+    videos?: string[];
 }
