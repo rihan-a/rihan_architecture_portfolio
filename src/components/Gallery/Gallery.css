@@ -26,4 +26,28 @@
     border-radius: 5px;
     color: black;
     margin-right: 8px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.programme-txt:hover {
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+.programme-txt.active {
+    background-color: rgb(33, 33, 33);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .projects-programme {
+        height: 100px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    .programme-txt {
+        margin-bottom: 10px;
+    }
 }
