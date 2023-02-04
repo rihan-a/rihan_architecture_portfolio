@@ -3,6 +3,7 @@ import "./Gallery.css";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 import projects from "../../projects.json";
+import { projectTypes } from "./projectTypes";
 
 interface projectCard {
     id: number;
@@ -12,20 +13,27 @@ interface projectCard {
 
 function Gallery() {
     return (
-        <div className="gallery-container main-container">
-            {projects
-                .sort((a, b) => 0.5 - Math.random())
-                .map((project: projectCard) => {
-                    return (
-                        <ProjectCard
-                            key={project.id}
-                            coverImg={project.images[0]}
-                            title={project.title}
-                            id={project.id}
-                        />
-                    );
+        <>
+            <div className="projects-programme">
+                {projectTypes.map((type: string) => {
+                    return <h4 className="programme-txt">{type}</h4>;
                 })}
-        </div>
+            </div>
+            <div className="gallery-container main-container">
+                {projects
+                    .sort((a, b) => 0.5 - Math.random())
+                    .map((project: projectCard) => {
+                        return (
+                            <ProjectCard
+                                key={project.id}
+                                coverImg={project.images[0]}
+                                title={project.title}
+                                id={project.id}
+                            />
+                        );
+                    })}
+            </div>
+        </>
     );
 }
 
