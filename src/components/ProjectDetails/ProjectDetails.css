@@ -21,7 +21,7 @@
 
 .project-desc {
     height: 25%;
-    /* width: 90%; */
+
     color: #9c9c9c;
     font-size: 1.3rem;
     font-weight: 200;
@@ -33,7 +33,7 @@
 }
 
 .project-facts-wrapper {
-    width: 65%;
+    width: 85%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
