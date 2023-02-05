@@ -122,7 +122,7 @@
         "client": "JORISLAARMAN Lab",
         "phase": "Concept",
         "role": "Designer",
-        "programme": "Industrial",
+        "programme": "Digital",
         "images": [
             "https://www.dropbox.com/s/vlh1i9fjj2bhvc2/3D-print-steel-bridge-in-Amsterdam-1500x630.jpg?raw=1",
             "https://www.dropbox.com/s/h105znz408kmice/hello-robot-exhibition-design-technology-vitra-design-museum_exhibition_dezeen_2364_col_5-1.jpg?raw=1",
@@ -132,6 +132,10 @@
             "https://www.dropbox.com/s/69kgimmkjt4x5y9/frame-1%20kopie.jpg?raw=1",
             "https://www.dropbox.com/s/exg8opnwule0s78/try03a.jpg?raw=1",
             "https://www.dropbox.com/s/geryn6hv74afm6u/TRY02.jpg?raw=1"
+        ],
+        "videos": [
+            "https://player.vimeo.com/video/150070595?h=feea83458a",
+            "https://player.vimeo.com/video/150064586?h=77a1daefb0"
         ]
     },
     {
@@ -175,6 +179,11 @@
             "https://www.dropbox.com/s/nutlvzfb3t6zabb/IMG_0008.JPG?raw=1",
             "https://www.dropbox.com/s/sy9m453ii0rvme4/IMG_9992.jpg?raw=1",
             "https://www.dropbox.com/s/ti76jstt2z079gb/3D%20PRINTING01.jpg?raw=1"
+        ],
+        "videos": [
+            "https://player.vimeo.com/video/84495095?h=c5bcf06ea6",
+            "https://player.vimeo.com/video/84061964?h=ca7930ea91",
+            "https://player.vimeo.com/video/84070903?h=dde0cf880d"
         ]
     },
     {
