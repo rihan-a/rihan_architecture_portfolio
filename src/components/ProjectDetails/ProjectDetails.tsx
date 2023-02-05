@@ -13,6 +13,7 @@ interface IProps {
         location: string;
         client: string;
         phase: string;
+        programme: string;
         role: string;
         images: string[];
     };
@@ -46,6 +47,10 @@ function ProjectDetails({ projectData }: IProps) {
                     <div className="project-fact">
                         <p className="fact">PHASE</p>
                         <p className="value">{projectData.phase}</p>
+                    </div>
+                    <div className="project-fact">
+                        <p className="fact">PROGRAMME</p>
+                        <p className="value">{projectData.programme}</p>
                     </div>
                     <div className="project-fact">
                         <p className="fact">ROLE</p>
