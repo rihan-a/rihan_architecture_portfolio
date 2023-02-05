@@ -6,7 +6,7 @@ Frontend web app showcasing my architecture and design projects for the past 10 
 
 ## Demo
 
-www.rihan.info
+https://rihan.info
 
 ##
 
