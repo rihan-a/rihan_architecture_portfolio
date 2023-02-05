@@ -6,6 +6,7 @@ export interface projectInterface {
     location: string;
     client: string;
     phase: string;
+    programme: string;
     role: string;
     images: string[];
     videos?: string[];
