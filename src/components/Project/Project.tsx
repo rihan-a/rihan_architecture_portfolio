@@ -18,6 +18,7 @@ function Project() {
         location: "",
         client: "",
         phase: "",
+        programme: "",
         role: "",
         images: [],
         videos: [],
@@ -51,14 +52,18 @@ function Project() {
 
             {/* -----  Render project videos ------ */}
 
-            {projectData.videos && (
-                <iframe
-                    className="project-video"
-                    title="vimeo-player"
-                    src={projectData.videos[0]}
-                    allowFullScreen
-                ></iframe>
-            )}
+            {projectData.videos &&
+                projectData.videos.map((videoUrl) => {
+                    return (
+                        <iframe
+                            key={videoUrl}
+                            className="project-video"
+                            title="vimeo-player"
+                            src={videoUrl}
+                            allowFullScreen
+                        ></iframe>
+                    );
+                })}
         </>
     );
 }
