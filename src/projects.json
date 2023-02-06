@@ -70,9 +70,9 @@
         "role": "Designer",
         "programme": "Office",
         "images": [
-            "https://www.dropbox.com/s/ilh9jbezprofpes/nigh4.jpg?raw=1",
-            "https://www.dropbox.com/s/zxhey7umf84whtr/Difusse02.jpg?raw=1",
-            "https://www.dropbox.com/s/c4nw108filjfals/lageplan.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/rkw/nigh4.jpg",
+            "https://rihanbucket.s3.amazonaws.com/rkw/Difusse02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/rkw/lageplan.jpg"
         ]
     },
     {
@@ -198,11 +198,11 @@
         "role": "Architect / Designer",
         "programme": "Office",
         "images": [
-            "https://www.dropbox.com/s/lbti1uso13nsczn/Kam%201-Edit03.jpg?raw=1",
-            "https://www.dropbox.com/s/8x385xl0xxkt3z6/Kam%202-Edit02.jpg?raw=1",
-            "https://www.dropbox.com/s/o8dbxlqq0zr3hg9/E00.jpg?raw=1",
-            "https://www.dropbox.com/s/sv2mi23ac4th7jy/Section02.jpg?raw=1",
-            "https://www.dropbox.com/s/diaab88hz2cnhu6/170829_Fassaden%20Varianten.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/vw/Kam+1-Edit03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/Kam+2-Edit02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/E00.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/Section02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/vw/170829_Fassaden+Varianten.jpg"
         ]
     },
     {
@@ -291,10 +291,10 @@
         "role": "Architect / Designer ",
         "programme": "Residential",
         "images": [
-            "https://www.dropbox.com/s/s1ib0pefjdi2ha8/tas01.jpg?raw=1",
-            "https://www.dropbox.com/s/5vxkz73kub0rx5p/tas02.jpg?raw=1",
-            "https://www.dropbox.com/s/3yyzk9f2vhoeq36/tas03.jpg?raw=1",
-            "https://www.dropbox.com/s/65bd2hcs13kf75g/tas05.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/tas/tas01.jpg",
+            "https://rihanbucket.s3.amazonaws.com/tas/tas02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/tas/tas03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/tas/tas05.jpg"
         ]
     },
     {
@@ -361,11 +361,11 @@
         "role": "Architect / Designer ",
         "programme": "Exhibition",
         "images": [
-            "https://www.dropbox.com/s/7uwhdj31vtfi3mz/CES_125a.jpg?raw=1",
-            "https://www.dropbox.com/s/ankpum215zyhymn/CES_1232.jpg?raw=1",
-            "https://www.dropbox.com/s/627f2vtra3p0d3w/PAY%20KNOX_KNOX%20SIDE03.jpg?raw=1",
-            "https://www.dropbox.com/s/nbngasc8vf97ww7/PAY%20KNOX_AVENUE.jpg?raw=1",
-            "https://www.dropbox.com/s/h5ot4rixluo5ro3/DIAGRAM-01.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/samsung/CES_125a.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/CES_1232.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/PAY+KNOX_KNOX+SIDE03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/PAY+KNOX_AVENUE.jpg",
+            "https://rihanbucket.s3.amazonaws.com/samsung/DIAGRAM-01.jpg"
         ]
     },
     {
