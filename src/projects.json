@@ -86,12 +86,12 @@
         "role": "Architect / Designer",
         "programme": "Mixed use",
         "images": [
-            "https://www.dropbox.com/s/hwz31cgd9ud09vi/kiel%20tower%20render2.jpg?raw=1",
-            "https://www.dropbox.com/s/9g83sztkjqurfyw/181106_Siteplan%20Main%20cropped2.jpg?raw=1",
-            "https://www.dropbox.com/s/gup5ydqqmx81wfb/kiel%20tower%20render.jpg?raw=1",
-            "https://www.dropbox.com/s/9qbtvi2tf95z8kq/diagram-kaphorn.png?raw=1",
-            "https://www.dropbox.com/s/jjiislomli0jlwm/181120_Finalpresentation_Graft-32.jpg?raw=1",
-            "https://www.dropbox.com/s/ab4c0la4l86d9q1/181120_Finalpresentation_Graft-37.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/kiel+tower+render2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/181106_Siteplan+Main+cropped2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/kiel+tower+render.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/diagram-kaphorn.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/181120_Finalpresentation_Graft-32.jpg",
+            "https://rihanbucket.s3.amazonaws.com/kaphorn/181120_Finalpresentation_Graft-37.jpg"
         ]
     },
     {
@@ -124,14 +124,14 @@
         "role": "Designer",
         "programme": "Digital",
         "images": [
-            "https://www.dropbox.com/s/vlh1i9fjj2bhvc2/3D-print-steel-bridge-in-Amsterdam-1500x630.jpg?raw=1",
-            "https://www.dropbox.com/s/h105znz408kmice/hello-robot-exhibition-design-technology-vitra-design-museum_exhibition_dezeen_2364_col_5-1.jpg?raw=1",
-            "https://www.dropbox.com/s/b1rta6ijw3b5lrf/ezgif.com-gif-maker.gif?raw=1",
-            "https://www.dropbox.com/s/qezubp9087opzmz/Elevation.jpg?raw=1",
-            "https://www.dropbox.com/s/7vmr9tm5t5b7a4i/2ds2.jpg?raw=1",
-            "https://www.dropbox.com/s/69kgimmkjt4x5y9/frame-1%20kopie.jpg?raw=1",
-            "https://www.dropbox.com/s/exg8opnwule0s78/try03a.jpg?raw=1",
-            "https://www.dropbox.com/s/geryn6hv74afm6u/TRY02.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/mx3d/3D-print-steel-bridge-in-Amsterdam-1500x630.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/hello-robot-exhibition-design-technology-vitra-design-museum_exhibition_dezeen_2364_col_5-1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/ezgif.com-gif-maker.gif",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/Elevation.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/2ds2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/frame-1+kopie.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/try03a.jpg",
+            "https://rihanbucket.s3.amazonaws.com/mx3d/TRY02.jpg"
         ],
         "videos": [
             "https://player.vimeo.com/video/150070595?h=feea83458a",
@@ -170,16 +170,16 @@
         "role": "Computional Designer",
         "programme": "Digital",
         "images": [
-            "https://www.dropbox.com/s/nvmrhh8q9d95737/b3.jpg?raw=1",
-            "https://www.dropbox.com/s/cqjnyz652zdyni0/a22.jpg?raw=1",
-            "https://www.dropbox.com/s/5z5dlivlatib605/UNITS2.jpg?raw=1",
-            "https://www.dropbox.com/s/bz9uqszx72g64ux/SECTION02_1.jpg?raw=1",
-            "https://www.dropbox.com/s/yktfkuezk6fis9y/DIAGRAM03edit.jpg?raw=1",
-            "https://www.dropbox.com/s/y7gruat0ek9bakx/DIAGRAM03.jpg?raw=1",
-            "https://www.dropbox.com/s/kaddotow0qi9v69/A7s.jpg?raw=1",
-            "https://www.dropbox.com/s/nutlvzfb3t6zabb/IMG_0008.JPG?raw=1",
-            "https://www.dropbox.com/s/sy9m453ii0rvme4/IMG_9992.jpg?raw=1",
-            "https://www.dropbox.com/s/ti76jstt2z079gb/3D%20PRINTING01.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/b3.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/a22.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/UNITS2.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/SECTION02_1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/DIAGRAM03edit.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/DIAGRAM03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/A7s.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/IMG_0008.JPG",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/IMG_9992.jpg",
+            "https://rihanbucket.s3.amazonaws.com/emerginghabitat/3D+PRINTING01.jpg"
         ],
         "videos": [
             "https://player.vimeo.com/video/84495095?h=c5bcf06ea6",
@@ -216,14 +216,14 @@
         "role": "Architect / Designer",
         "programme": "Exhibition",
         "images": [
-            "https://www.dropbox.com/s/84cmprmfkwkkdzp/Picture9.jpg?raw=1",
-            "https://www.dropbox.com/s/k2lsami50cojeb3/Picture1.jpg?raw=1",
-            "https://www.dropbox.com/s/p7js6t70stx4rl1/Picture4.jpg?raw=1",
-            "https://www.dropbox.com/s/ml6rqdy9s45rf22/Picture16.jpg?raw=1",
-            "https://www.dropbox.com/s/aa3qfh039pwr1pf/Picture7.jpg?raw=1",
-            "https://www.dropbox.com/s/7f83kqyt201qwzd/Picture10.jpg?raw=1",
-            "https://www.dropbox.com/s/7pa3lhogrr1r8uy/Picture13.jpg?raw=1",
-            "https://www.dropbox.com/s/ghzx82gld4wrbgv/Picture25.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture9.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture1.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture4.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture16+copy.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture7.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture10.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture13.jpg",
+            "https://rihanbucket.s3.amazonaws.com/floriade/Picture25.jpg"
         ]
     },
     {
@@ -308,9 +308,9 @@
         "role": "Architect / Designer ",
         "programme": "Exhibition",
         "images": [
-            "https://www.dropbox.com/s/i8b055wc2e571qb/hyundai01.jpg?raw=1",
-            "https://www.dropbox.com/s/z5keecn6bp92o3x/hyundai03.jpg?raw=1",
-            "https://www.dropbox.com/s/opmk6u5itwfuv12/hyundai05.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/hyundai/hyundai01.jpg",
+            "https://rihanbucket.s3.amazonaws.com/hyundai/hyundai03.jpg",
+            "https://rihanbucket.s3.amazonaws.com/hyundai/hyundai05.jpg"
         ]
     },
     {
@@ -342,12 +342,12 @@
         "role": "Architect / Designer ",
         "programme": "Digital",
         "images": [
-            "https://www.dropbox.com/s/95my0u3zn097kpt/IMG_5651.JPG?raw=1",
-            "https://www.dropbox.com/s/p8nw1a25nds05ne/form-finding02.jpg?raw=1",
-            "https://www.dropbox.com/s/kc832zvfzxbtkuu/13.jpg?raw=1",
-            "https://www.dropbox.com/s/rn1wbn3odvwf8fp/12.jpg?raw=1",
-            "https://www.dropbox.com/s/vh4st6xaii0v9n5/IMG_5687.JPG?raw=1",
-            "https://www.dropbox.com/s/97tvpwdhl8ha9v0/10.jpg?raw=1"
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/IMG_5651.JPG",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/form-finding02.jpg",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/13.jpg",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/12.jpg",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/IMG_5687.JPG",
+            "https://rihanbucket.s3.amazonaws.com/randomfacets/10.jpg"
         ]
     },
     {
