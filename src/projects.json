@@ -310,5 +310,60 @@
             "https://www.dropbox.com/s/z5keecn6bp92o3x/hyundai03.jpg?raw=1",
             "https://www.dropbox.com/s/opmk6u5itwfuv12/hyundai05.jpg?raw=1"
         ]
+    },
+    {
+        "id": 16,
+        "title": "PRODUCT INSTALLATION",
+        "desc": "The installation highlights the concept of mobile experience introduced by Apple's latest watch, emphasizing the true versatility of smart wearable devices like the new Watch. Users can experiment with various models and strap colors that align with their personal style and fashion tastes. An interactive and engaging experience is provided through a simple and intuitive technique, allowing users to interact with each other in the installation space.",
+        "year": 2014,
+        "location": "-",
+        "client": "-",
+        "phase": "Competition",
+        "role": "Architect / Designer ",
+        "programme": "Exhibition",
+        "images": [
+            "https://www.dropbox.com/s/y27mexq6uo30v6w/cam01.jpg?raw=1",
+            "https://www.dropbox.com/s/doxzt6wnlt7ga6o/cam04.jpg?raw=1",
+            "https://www.dropbox.com/s/gfdd9cmkxzgk770/cam05.jpg?raw=1",
+            "https://www.dropbox.com/s/t6yf3xm8qu33q2j/38a879_569e251350b840ed91edc1a2775648ef.jpg.webp?raw=1",
+            "https://www.dropbox.com/s/m6mft4m1twxxuz9/interactive%20diagram.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "RANDOM FACETS",
+        "desc": "Random facets experiment introducing multiple functional objects. Each of them belongs to a different set of formal expression. It is an experimental spatial installation/ urban furniture, primarily made for public open spaces, but also as a particular spatial object. The design was achieved by parametric computer modeling and then translated into physical form, through digital fabrication methods.",
+        "year": 2013,
+        "location": "-",
+        "client": "-",
+        "phase": "Experiment",
+        "role": "Architect / Designer ",
+        "programme": "Digital",
+        "images": [
+            "https://www.dropbox.com/s/95my0u3zn097kpt/IMG_5651.JPG?raw=1",
+            "https://www.dropbox.com/s/p8nw1a25nds05ne/form-finding02.jpg?raw=1",
+            "https://www.dropbox.com/s/kc832zvfzxbtkuu/13.jpg?raw=1",
+            "https://www.dropbox.com/s/rn1wbn3odvwf8fp/12.jpg?raw=1",
+            "https://www.dropbox.com/s/vh4st6xaii0v9n5/IMG_5687.JPG?raw=1",
+            "https://www.dropbox.com/s/97tvpwdhl8ha9v0/10.jpg?raw=1"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "SAMSUNG BOOTH @ CES 2016",
+        "desc": "At CES 2016 Samsung shows the IoT is now “in sync with real life.” To strengthen the key message our design focused on six curated lifestyle scenarios at the center of attention. In these framed islands, visitors can see and experience the direct benefits of truly connected devices. The products are no longer necessarily divided by their categories for presentation, but each scenario showed different products interacting with each other to illustrate specific benefits and to paint an overall image of what the Internet of Things is about and how we all can profit from it.",
+        "year": 2016,
+        "location": "Las Vegas, USA",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "phase": "Experiment",
+        "role": "Architect / Designer ",
+        "programme": "Exhibition",
+        "images": [
+            "https://www.dropbox.com/s/7uwhdj31vtfi3mz/CES_125a.jpg?raw=1",
+            "https://www.dropbox.com/s/ankpum215zyhymn/CES_1232.jpg?raw=1",
+            "https://www.dropbox.com/s/627f2vtra3p0d3w/PAY%20KNOX_KNOX%20SIDE03.jpg?raw=1",
+            "https://www.dropbox.com/s/nbngasc8vf97ww7/PAY%20KNOX_AVENUE.jpg?raw=1",
+            "https://www.dropbox.com/s/h5ot4rixluo5ro3/DIAGRAM-01.jpg?raw=1"
+        ]
     }
 ]
