@@ -365,5 +365,23 @@
             "https://www.dropbox.com/s/nbngasc8vf97ww7/PAY%20KNOX_AVENUE.jpg?raw=1",
             "https://www.dropbox.com/s/h5ot4rixluo5ro3/DIAGRAM-01.jpg?raw=1"
         ]
+    },
+    {
+        "id": 19,
+        "title": "VR CHAIR",
+        "desc": "virtual reality chair is a specialized seating designed to enhance the immersive experience of virtual reality. This chair integrates various technologies like haptic feedback, motion tracking, and sensory inputs to provide a truly realistic and dynamic virtual experience. The chair can move in sync with the virtual environment, creating a sense of presence and interaction. The VR chair is an ideal solution for gaming, entertainment, and simulation, providing users with a new level of immersion and excitement.",
+        "year": 2015,
+        "location": "-",
+        "client": "Cheil Germany - SAMSUNG Europe",
+        "phase": "Experiment",
+        "role": "Architect / Designer ",
+        "programme": "Exhibition",
+        "images": [
+            "https://www.dropbox.com/s/2bkez8yfhagm9y3/VR_06.jpg?raw=1",
+            "https://www.dropbox.com/s/p5ypypzbweejafz/VR_09.jpg?raw=1",
+            "https://www.dropbox.com/s/smez0wi145xt5l7/VR_05.jpg?raw=1",
+            "https://www.dropbox.com/s/mbr6d4zlcxjird0/VR_11.jpg?raw=1",
+            "https://www.dropbox.com/s/nnm20dyyiscrhy7/VR_08.jpg?raw=1"
+        ]
     }
 ]
