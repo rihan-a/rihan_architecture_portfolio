@@ -37,7 +37,7 @@ function Gallery() {
                     );
                 })}
             </div>
-            <div className="gallery-container main-container">
+            <div className="gallery-container">
                 {projects
                     .sort((a, b) => 0.5 - Math.random())
                     .filter((project) => {
