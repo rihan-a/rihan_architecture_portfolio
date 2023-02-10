@@ -44,10 +44,10 @@
     .cover h1 {
         margin-top: 120px;
         width: 75%;
-        font-size: 70vw;
+        font-size: 72vw;
         word-break: break-all;
         line-height: 0.95;
-        text-align: center;
+        text-align: start;
         height: 100%;
     }
 
