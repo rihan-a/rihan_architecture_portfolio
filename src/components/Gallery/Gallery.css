@@ -4,6 +4,8 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1.25%;
+    width: 98%;
+    margin: auto;
 }
 
 .projects-programme {
