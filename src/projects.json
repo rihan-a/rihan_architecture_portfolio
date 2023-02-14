@@ -166,7 +166,7 @@
         "year": 2014,
         "location": "KIRIBATI ISLANDS",
         "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
-        "phase": "Architecture",
+        "phase": "Concept",
         "role": "Computional Designer",
         "programme": "Digital",
         "images": [
@@ -194,7 +194,7 @@
         "year": 2017,
         "location": "Braunschweig, Germany",
         "client": "RKW + Düsseldorf",
-        "phase": "Architecture",
+        "phase": "Concept",
         "role": "Architect / Designer",
         "programme": "Office",
         "images": [
@@ -212,7 +212,7 @@
         "year": 2021,
         "location": "Amsterdam, Netherlands",
         "client": "LAVA Berlin",
-        "phase": "Architecture - Competition",
+        "phase": "Competition",
         "role": "Architect / Designer",
         "programme": "Exhibition",
         "images": [
@@ -233,7 +233,7 @@
         "year": 2010,
         "location": "Cairo, Egypt",
         "client": "Ain-Shams University",
-        "phase": "Architecture",
+        "phase": "Concept",
         "role": "Architect / Designer",
         "programme": "Civic",
         "images": [
@@ -249,7 +249,7 @@
         "year": 2015,
         "location": "-",
         "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
-        "phase": "Architecture Software",
+        "phase": "Concept",
         "role": "Designer / Developer",
         "programme": "Digital",
         "images": [
@@ -269,7 +269,7 @@
         "year": 2013,
         "location": "-",
         "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
-        "phase": "Digital Experiment",
+        "phase": "Concept",
         "role": "Designer / Developer",
         "programme": "Digital",
         "images": [
@@ -337,7 +337,7 @@
         "year": 2013,
         "location": "-",
         "client": "-",
-        "phase": "Experiment",
+        "phase": "Completed",
         "role": "Architect / Designer ",
         "programme": "Digital",
         "images": [
@@ -356,7 +356,7 @@
         "year": 2016,
         "location": "Las Vegas, USA",
         "client": "Cheil Germany - SAMSUNG Europe",
-        "phase": "Experiment",
+        "phase": "Completed",
         "role": "Architect / Designer ",
         "programme": "Exhibition",
         "images": [
@@ -374,7 +374,7 @@
         "year": 2015,
         "location": "-",
         "client": "Cheil Germany - SAMSUNG Europe",
-        "phase": "Experiment",
+        "phase": "Concept",
         "role": "Architect / Designer ",
         "programme": "Exhibition",
         "images": [
