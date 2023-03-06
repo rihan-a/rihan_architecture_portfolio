@@ -6,7 +6,7 @@ import { useNavigate } from "react-router";
 function NavBar() {
     const navigate = useNavigate();
     return (
-        <div className="nav-bar">
+        <nav className="nav-bar">
             <Link className="nav-bar-link" to="/">
                 HOME
             </Link>
@@ -20,7 +20,7 @@ function NavBar() {
             <Link className="nav-bar-link" to="/contact">
                 CONTACT
             </Link>
-        </div>
+        </nav>
     );
 }
 
