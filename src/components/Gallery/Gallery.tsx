@@ -20,7 +20,7 @@ function Gallery() {
 
     return (
         <>
-            <div className="projects-programme">
+            <section className="projects-programme">
                 {projectTypes.map((type: string) => {
                     return (
                         <h4
@@ -36,8 +36,8 @@ function Gallery() {
                         </h4>
                     );
                 })}
-            </div>
-            <div className="gallery-container">
+            </section>
+            <section className="gallery-container">
                 {projects
                     .sort((a, b) => 0.5 - Math.random())
                     .filter((project) => {
@@ -56,7 +56,7 @@ function Gallery() {
                             />
                         );
                     })}
-            </div>
+            </section>
         </>
     );
 }
