@@ -17,7 +17,7 @@ function Cover() {
     return (
         <>
             <NavBar />
-            <div className="cover-wrapper">
+            <main className="cover-wrapper">
                 <div
                     className="cover"
                     style={{
@@ -29,7 +29,7 @@ function Cover() {
                 <div className="mouse-icon-row">
                     <MouseIcon />
                 </div>
-            </div>
+            </main>
         </>
     );
 }
