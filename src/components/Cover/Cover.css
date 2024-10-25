@@ -30,7 +30,8 @@
     font-stretch: normal;
     text-transform: none;
     appearance: none;
-    color: rgb(16, 16, 16);
+    /* color: rgb(16, 16, 16); */
+    color: rgba(255, 255, 255, 0.338);
 }
 
 .mouse-icon-row {
