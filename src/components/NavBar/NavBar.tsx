@@ -15,7 +15,7 @@ function NavBar() {
             </Link> */}
             <div className="navbar-logo">
                 <img
-                    src="/images/LOGO-B.png"
+                    src="/images/LOGO-2-B.png"
                     alt="rihan-logo"
                     onClick={() => navigate("/")}
                 />
