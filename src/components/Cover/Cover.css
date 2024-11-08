@@ -50,6 +50,7 @@
         line-height: 0.95;
         text-align: start;
         height: 100%;
+        display: none;
     }
 
     .mouse-icon-row {
