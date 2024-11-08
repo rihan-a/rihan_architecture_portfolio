@@ -31,7 +31,7 @@
     text-transform: none;
     appearance: none;
     /* color: rgb(16, 16, 16); */
-    color: rgba(255, 255, 255, 0.338);
+    color: rgb(255, 255, 255);
 }
 
 .mouse-icon-row {
