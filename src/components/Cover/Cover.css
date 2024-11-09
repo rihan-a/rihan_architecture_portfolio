@@ -9,7 +9,7 @@
 .cover {
     background-image: url("../../../public/images/ATHORA_MUNICH_V1.jpg");
     width: 98%;
-    height: 96%;
+    height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
     filter: saturate(80%);
@@ -17,7 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
+    margin-top: 3%;
 }
 
 .cover h1 {
