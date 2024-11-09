@@ -54,6 +54,10 @@
         display: none;
     }
 
+    .cover {
+        margin-top: 12%;
+    }
+
     .mouse-icon-row {
         bottom: 35px;
     }
