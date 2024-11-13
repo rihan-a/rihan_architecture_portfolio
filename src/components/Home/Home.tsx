@@ -8,8 +8,8 @@ function Home() {
     return (
         <>
             <Cover />
-            <FeaturedProjects />
-            <Gallery />
+            {/* <FeaturedProjects /> */}
+            {/* <Gallery /> */}
         </>
     );
 }
