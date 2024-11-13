@@ -1,0 +1,31 @@
+.projects-page-main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 100px auto 30px;
+    width: 98%;
+}
+
+.projects-page-main-title h2 {
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 0px;
+    text-align: justify;
+    color: black;
+    font-family: "Six Caps", sans-serif;
+    text-transform: uppercase;
+    font-style: unset;
+    font-variant: unset;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    .projects-page-main-title {
+        width: 90%;
+    }
+
+    .projects-page-main-title h2 {
+        font-size: 3rem;
+    }
+}
