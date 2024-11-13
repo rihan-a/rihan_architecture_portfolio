@@ -11,7 +11,7 @@
     height: 25%;
     width: 100%;
     color: rgb(0, 0, 0);
-    font-size: 7rem;
+    font-size: 5rem;
     font-family: "Six Caps", sans-serif;
     font-weight: 200;
     line-height: 1;
@@ -64,6 +64,9 @@
 }
 
 @media (max-width: 768px) {
+    .project-name h3 {
+        font-size: 3rem;
+    }
     .project-text-wrapper {
         width: 90%;
     }
@@ -72,6 +75,6 @@
         flex-direction: column;
     }
     .project-fact {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
