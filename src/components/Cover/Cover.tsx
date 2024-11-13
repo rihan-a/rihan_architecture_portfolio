@@ -8,7 +8,7 @@ function Cover() {
     const [coverUrl, setCoverUrl] = useState<string>("");
 
     useEffect(() => {
-        let imageRandomNumber = Math.floor(Math.random() * 17);
+        let imageRandomNumber = Math.floor(Math.random() * 11);
         const coverImageUrl = coverImages[0].coverImages[imageRandomNumber];
 
         setCoverUrl(coverImageUrl);
@@ -24,7 +24,12 @@ function Cover() {
                         backgroundImage: `url("${coverUrl}")`,
                     }}
                 >
-                    <h1>PORTFOLIO</h1>
+                    {/* <h1>PORTFOLIO</h1> */}
+                    <img
+                        className="cover-rihan-logo"
+                        src="/images/LOGO-2-W.png"
+                        alt="rihan logo"
+                    />
                 </div>
                 <div className="mouse-icon-row">
                     <MouseIcon />
