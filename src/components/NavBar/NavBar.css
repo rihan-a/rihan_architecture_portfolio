@@ -1,6 +1,6 @@
 .nav-bar {
     height: 50px;
-    width: 95%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,6 +20,7 @@
 .nav-bar-link {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -33,13 +34,19 @@
     transition: 0.1s ease-in;
 }
 
+.ai {
+    color: red;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
 .nav-bar-link:hover {
     color: rgb(16, 16, 16);
     background-color: rgb(204, 204, 204);
 }
 
 .nav-bar .navbar-logo {
-    height: 220%;
+    height: 180%;
 }
 
 .nav-bar img {
@@ -49,6 +56,15 @@
 
 @media (max-width: 768px) {
     .nav-bar {
-        width: 98%;
+        width: 90%;
+        padding: 0;
+    }
+
+    .nav-bar-link {
+        font-size: 0.85rem;
+    }
+
+    .navbar-logo {
+        display: none;
     }
 }
