@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    gap: 1.25%;
+    gap: 0.5%;
     width: 98%;
     margin: auto;
 }
@@ -42,11 +42,14 @@
 }
 
 @media (max-width: 768px) {
+    .gallery-container {
+        width: 90%;
+    }
     .projects-programme {
         width: 90%;
         height: 100px;
         flex-wrap: wrap;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         margin-left: 20px;
     }
 
