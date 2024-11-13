@@ -7,7 +7,6 @@
 }
 
 .cover {
-    background-image: url("../../../public/images/ATHORA_MUNICH_V1.jpg");
     width: 98%;
     height: 90%;
     background-repeat: no-repeat;
@@ -42,8 +41,12 @@
     width: 100%;
 }
 
+.cover-rihan-logo {
+    display: none;
+}
+
 @media (max-width: 768px) {
-    .cover h1 {
+    /* .cover h1 {
         margin-top: 120px;
         width: 75%;
         font-size: 72vw;
@@ -52,10 +55,17 @@
         text-align: start;
         height: 100%;
         display: none;
-    }
+    } */
 
     .cover {
         margin-top: 12%;
+    }
+
+    .cover-rihan-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
     }
 
     .mouse-icon-row {
