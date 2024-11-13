@@ -1,8 +1,8 @@
 .project-card-container {
-    width: 24%;
+    width: 24.62%;
     aspect-ratio: 1.4/1;
     position: relative;
-    margin-top: 20px;
+    margin-top: 7px;
 }
 
 .project-card-img {
@@ -34,7 +34,8 @@
 
 .project-title h4 {
     color: white;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 300;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
         "Helvetica Neue", sans-serif;
