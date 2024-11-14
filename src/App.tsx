@@ -1,4 +1,5 @@
 import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import "./App.css";
 import Home from "./components/Home/Home";
 import Project from "./components/Project/Project";
@@ -25,6 +26,7 @@ function App() {
                 </Routes>
             </BrowserRouter>
             <Footer />
+            <SpeedInsights />
         </>
     );
 }
