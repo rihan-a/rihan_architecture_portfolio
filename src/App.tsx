@@ -14,6 +14,10 @@ import About from "./components/About/About";
 function App() {
     return (
         <>
+            <div>
+                <SpeedInsights />
+            </div>
+
             <BrowserRouter>
                 <ScrollToTop />
                 <Routes>
@@ -26,7 +30,6 @@ function App() {
                 </Routes>
             </BrowserRouter>
             <Footer />
-            <SpeedInsights />
         </>
     );
 }
