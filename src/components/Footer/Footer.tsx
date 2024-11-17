@@ -6,7 +6,7 @@ function Footer() {
         <footer className="footer-container">
             <div className="footer">
                 <p>
-                    Architecture Portfolio © 2023 All rights reserved - Designed
+                    rihan portfolio © 2023 All rights reserved - Fully Designed
                     and Developed by Rihan
                 </p>
             </div>
