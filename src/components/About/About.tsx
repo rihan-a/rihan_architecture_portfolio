@@ -44,13 +44,13 @@ function About() {
                         project.
                     </p>
                     <p>
-                        Now based in Berlin, I’m exploring new realms in web
-                        development, AI, and digital art, driven by a passion
-                        for creating impactful, future-oriented solutions. My
-                        career reflects a continuous commitment to bridging
-                        architecture, technology, and entrepreneurial
-                        innovation, and I’m constantly pushing the boundaries of
-                        what design can achieve.
+                        Now based in Berlin, I’m exploring new realms in Project
+                        Managment, AI, driven by a passion for creating
+                        impactful, future-oriented solutions. My career reflects
+                        a continuous commitment to bridging architecture,
+                        technology, and entrepreneurial innovation, and I’m
+                        constantly pushing the boundaries of what design can
+                        achieve.
                     </p>
                 </section>
             </section>
