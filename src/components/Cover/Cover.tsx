@@ -31,9 +31,9 @@ function Cover() {
                         alt="rihan logo"
                     />
                 </div>
-                <div className="mouse-icon-row">
+                {/* <div className="mouse-icon-row">
                     <MouseIcon />
-                </div>
+                </div> */}
             </main>
         </>
     );
