@@ -32,6 +32,16 @@
 .img2img {
     margin-bottom: 70px;
 }
+.gif {
+    border-radius: 6px;
+    width: 700px;
+    height: 700px;
+}
+
+.gif img {
+    padding: 50px;
+    border-radius: 60px;
+}
 
 .ai-cover-container img {
     margin: auto;
