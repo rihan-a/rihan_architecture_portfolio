@@ -36,8 +36,12 @@ function Ai() {
                     ControlNet
                 </h3>
             </div>
-            <section className="ai-cover-container img2img">
-                <img src="/images/img2img.webp" alt="img2img ai" />
+
+            <section className="ai-cover-container img2img gif">
+                <img
+                    src="https://rihanbucket.s3.amazonaws.com/AI/img2img-gif.webp"
+                    alt="img2img ai"
+                />
             </section>
 
             <div className="sketch-txt-cover">
@@ -46,6 +50,13 @@ function Ai() {
                     Promt as an input, using Stable Diffuison Ai + ComfyUi
                 </h3>
             </div>
+
+            <section className="ai-cover-container img2img gif">
+                <img
+                    src="https://rihanbucket.s3.amazonaws.com/AI/txt2img-interior-gif.webp"
+                    alt="txt2img ai"
+                />
+            </section>
 
             <section className="ai-gallery">
                 {aiImages[0].aiImages
