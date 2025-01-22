@@ -37,6 +37,9 @@ function Ai() {
                 </h3>
             </div>
 
+            <section className="ai-cover-container img2img">
+                <img src="/images/img2img.webp" alt="img2img ai" />
+            </section>
             {/* <section className="ai-cover-container img2img gif">
                 <img
                     src="https://rihanbucket.s3.amazonaws.com/AI/img2img-gif.webp"
