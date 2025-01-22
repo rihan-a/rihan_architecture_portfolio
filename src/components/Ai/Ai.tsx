@@ -37,12 +37,12 @@ function Ai() {
                 </h3>
             </div>
 
-            <section className="ai-cover-container img2img gif">
+            {/* <section className="ai-cover-container img2img gif">
                 <img
                     src="https://rihanbucket.s3.amazonaws.com/AI/img2img-gif.webp"
                     alt="img2img ai"
                 />
-            </section>
+            </section> */}
 
             <div className="sketch-txt-cover">
                 <h3 className="txt-cover-title">TXT2IMG Ai Model</h3>
@@ -51,12 +51,12 @@ function Ai() {
                 </h3>
             </div>
 
-            <section className="ai-cover-container img2img gif">
+            {/* <section className="ai-cover-container img2img gif">
                 <img
                     src="https://rihanbucket.s3.amazonaws.com/AI/txt2img-interior-gif.webp"
                     alt="txt2img ai"
                 />
-            </section>
+            </section> */}
 
             <section className="ai-gallery">
                 {aiImages[0].aiImages
