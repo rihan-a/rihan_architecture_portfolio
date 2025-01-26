@@ -10,8 +10,9 @@ function NavBar() {
             <Link className="nav-bar-link" to="/projects">
                 Projects
             </Link>
-            <Link className="nav-bar-link ai" to="/ai">
-                Ai
+
+            <Link className="nav-bar-link ai" to="/genai">
+                GenAi
             </Link>
 
             <div className="navbar-logo">
@@ -22,12 +23,12 @@ function NavBar() {
                 />
             </div>
 
-            <Link className="nav-bar-link" to="/about">
-                About
+            <Link className="nav-bar-link ai" to="/ai">
+                Ai
             </Link>
 
-            <Link className="nav-bar-link" to="/contact">
-                Contact
+            <Link className="nav-bar-link" to="/about">
+                About
             </Link>
         </nav>
     );
