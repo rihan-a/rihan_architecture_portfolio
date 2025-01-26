@@ -10,6 +10,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Ai from "./components/Ai/Ai";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
 import About from "./components/About/About";
+import GenAi from "./components/GenAi/GenAi";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/project/:id" element={<Project />}></Route>
                     <Route path="/contact" element={<Contact />}></Route>
                     <Route path="/ai" element={<Ai />}></Route>
+                    <Route path="/genai" element={<GenAi />}></Route>
                     <Route path="/projects" element={<ProjectsPage />}></Route>
                     <Route path="/about" element={<About />}></Route>
                 </Routes>
