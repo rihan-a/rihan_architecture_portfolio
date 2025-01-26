@@ -70,6 +70,7 @@ function Ai() {
                                 className="gallery-ai-img"
                                 src={img}
                                 alt="ai generated building"
+                                key={img}
                             />
                         );
                     })}
