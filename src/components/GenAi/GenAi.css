@@ -1,0 +1,98 @@
+/* General Styles for the Interior Design Generator */
+.idg-main {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.idg-container {
+    max-width: 600px;
+    width: 90%;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: center;
+}
+
+/* Heading Styling */
+.idg-title {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    color: #222222;
+}
+
+/* Input Styling */
+.idg-input {
+    width: 100%;
+    overflow: auto;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.idg-input:focus {
+    border-color: #888888;
+    box-shadow: 0 0 4px rgba(136, 136, 136, 0.5);
+    outline: none;
+}
+
+/* Button Styling */
+.idg-button {
+    background-color: #e0e0e0;
+    color: #333333;
+    padding: 10px 16px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.idg-button:hover {
+    background-color: #d6d6d6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.idg-button:disabled {
+    background-color: #f0f0f0;
+    color: #999999;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Error Message Styling */
+.idg-error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+/* Output Image Styling */
+.idg-image {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtitle Styling */
+.idg-subtitle {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #555555;
+}
