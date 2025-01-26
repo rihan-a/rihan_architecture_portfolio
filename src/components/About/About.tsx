@@ -1,8 +1,14 @@
+import { useNavigate } from "react-router-dom";
 import NavBar from "../NavBar/NavBar";
 import "./About.css";
 
 function About() {
     // extract project id from params
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate("/contact");
+    };
 
     return (
         <>
@@ -58,6 +64,9 @@ function About() {
                         adaptability, and pushing boundaries—qualities I bring
                         to every project and team I join.
                     </p>
+                    <button className="btn-contact" onClick={handleClick}>
+                        Contact me!
+                    </button>
                 </section>
             </section>
         </>
