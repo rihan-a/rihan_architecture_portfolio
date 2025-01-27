@@ -14,7 +14,7 @@ function GenAi() {
         setOutputUrl(null);
 
         try {
-            const response = await fetch("/generate", {
+            const response = await fetch("/api/generate", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -44,6 +44,15 @@ function GenAi() {
             }
         } finally {
             setLoading(false);
+        }
+    };
+
+    const downloadDesign = () => {
+        if (outputUrl) {
+            const link = document.createElement("a");
+            link.href = outputUrl;
+            link.download = "design.jpg"; // Default filename for download
+            link.click();
         }
     };
 
@@ -81,16 +90,12 @@ function GenAi() {
                             alt="Generated Design"
                             className="idg-image"
                         />
-                        <a
-                            href={`${outputUrl.replace(
-                                "/images",
-                                "/download"
-                            )}`}
-                            download="generated_design.jpg" // File name for download
+                        <button
+                            onClick={downloadDesign}
                             className="idg-download-button"
                         >
                             Download Design
-                        </a>
+                        </button>
                     </div>
                 )}
             </div>
