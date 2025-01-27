@@ -97,3 +97,20 @@
     margin: 20px;
     color: #555555;
 }
+
+.idg-download-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0e0f0e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.idg-download-button:hover {
+    background-color: #575757;
+}
