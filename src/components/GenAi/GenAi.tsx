@@ -8,21 +8,63 @@ function GenAi() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
 
-    const generateDesign = async () => {};
+    const generateDesign = async () => {
+        setLoading(true);
+        setError("");
+        setOutputUrl(null);
+
+        try {
+            const response = await fetch("/generate", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ prompt }),
+            });
+
+            if (!response.ok) {
+                throw new Error("Failed to generate design");
+            }
+
+            const data = await response.json();
+
+            // Ensure data.outputUrl is a valid string
+            if (typeof data.outputUrl === "string") {
+                setOutputUrl(data.outputUrl);
+            } else {
+                throw new Error(
+                    "Invalid response format: outputUrl is not a string"
+                );
+            }
+        } catch (err) {
+            if (err instanceof Error) {
+                setError(err.message);
+            } else {
+                setError("An unexpected error occurred");
+            }
+        } finally {
+            setLoading(false);
+        }
+    };
 
     return (
         <div className="idg-main">
             <NavBar />
             <div className="idg-container">
                 <h1 className="idg-title">GenAi - Interior Design</h1>
-                <input
-                    type="text"
+
+                <textarea
                     className="idg-input"
                     value={prompt}
-                    onChange={(e) => setPrompt(e.target.value)}
+                    onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
+                        setPrompt(e.target.value)
+                    }
                     placeholder="Enter your design idea..."
                     disabled={loading}
+                    autoCorrect="on"
+                    autoComplete="on"
                 />
+
                 <button
                     onClick={generateDesign}
                     className="idg-button"
