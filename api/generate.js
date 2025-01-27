@@ -4,6 +4,7 @@ const Replicate = require("replicate");
 const dotenv = require("dotenv");
 const fs = require("fs");
 const path = require("path");
+const fetch = require("node-fetch");
 
 dotenv.config();
 
@@ -27,32 +28,39 @@ app.post("/generate", async (req, res) => {
                 input: {
                     aspect_ratio: "16:9",
                     prompt: prompt,
-                    output_format: "jpg",
                 },
             }
         );
 
-        if (output[0] instanceof ReadableStream) {
-            // Convert the ReadableStream into a buffer
-            const reader = output[0].getReader();
-            const chunks = [];
+        // Determine if output is a URL or a ReadableStream
+        if (Array.isArray(output) && typeof output[0] === "string") {
+            // Output is a URL
+            const imageUrl = output[0];
+            const response = await fetch(imageUrl);
+            const buffer = await response.buffer();
 
+            const filename = `generated-${Date.now()}.jpg`;
+            const filepath = path.join("/tmp", filename);
+
+            fs.writeFileSync(filepath, buffer);
+            res.json({ outputUrl: `/api/images/${filename}` });
+        } else if (Array.isArray(output) && output[0] instanceof ReadableStream) {
+            // Output is a ReadableStream
+            const stream = output[0];
+            const reader = stream.getReader();
+            const chunks = [];
             while (true) {
                 const { done, value } = await reader.read();
                 if (done) break;
-                chunks.push(Buffer.from(value));
+                chunks.push(value);
             }
-
             const buffer = Buffer.concat(chunks);
 
-            // Save the buffer as an image file
             const filename = `generated-${Date.now()}.jpg`;
-            const filepath = path.join(__dirname, "images", filename);
+            const filepath = path.join("/tmp", filename);
 
             fs.writeFileSync(filepath, buffer);
-
-            // Send the downloadable URL to the client
-            res.json({ outputUrl: `/images/${filename}` });
+            res.json({ outputUrl: `/api/images/${filename}` });
         } else {
             throw new Error("Unexpected output format from Replicate API");
         }
@@ -62,8 +70,17 @@ app.post("/generate", async (req, res) => {
     }
 });
 
-// Serve the images folder as static files
-app.use("/images", express.static(path.join(__dirname, "images")));
+app.get("/api/images/:filename", (req, res) => {
+    const { filename } = req.params;
+    const filepath = path.join("/tmp", filename);
+
+    if (fs.existsSync(filepath)) {
+        res.setHeader("Content-Type", "image/jpeg");
+        res.sendFile(filepath);
+    } else {
+        res.status(404).json({ error: "File not found" });
+    }
+});
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
