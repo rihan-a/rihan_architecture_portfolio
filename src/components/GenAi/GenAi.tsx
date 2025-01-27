@@ -81,6 +81,16 @@ function GenAi() {
                             alt="Generated Design"
                             className="idg-image"
                         />
+                        <a
+                            href={`${outputUrl.replace(
+                                "/images",
+                                "/download"
+                            )}`}
+                            download="generated_design.jpg" // File name for download
+                            className="idg-download-button"
+                        >
+                            Download Design
+                        </a>
                     </div>
                 )}
             </div>
