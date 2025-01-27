@@ -1,6 +1,7 @@
 {
     "name": "rihan_architecture_portfolio",
     "version": "0.1.0",
+    "proxy": "http://localhost:3002",
     "private": true,
     "dependencies": {
         "@reduxjs/toolkit": "^1.9.2",
