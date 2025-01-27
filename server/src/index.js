@@ -2,14 +2,13 @@ const express = require("express");
 const cors = require("cors");
 const Replicate = require("replicate");
 const dotenv = require("dotenv");
-const { Readable } = require("stream");
-const { Buffer } = require("buffer");
+const fs = require("fs");
+const path = require("path");
 
 dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3002;
-
 
 app.use(cors());
 app.use(express.json());
@@ -30,30 +29,30 @@ app.post("/generate", async (req, res) => {
                     prompt: prompt,
                     output_format: "jpg",
                 },
-
-
             }
         );
 
-        // Check if the output is a ReadableStream
         if (output[0] instanceof ReadableStream) {
-            const stream = output[0];
-
-            // Convert the ReadableStream to a Buffer
-            const reader = stream.getReader();
+            // Convert the ReadableStream into a buffer
+            const reader = output[0].getReader();
             const chunks = [];
+
             while (true) {
                 const { done, value } = await reader.read();
                 if (done) break;
-                chunks.push(value);
+                chunks.push(Buffer.from(value));
             }
+
             const buffer = Buffer.concat(chunks);
 
-            // Convert the Buffer to a base64-encoded string
-            const base64Image = buffer.toString("base64");
-            const outputUrl = `data:image/jpeg;base64,${base64Image}`;
+            // Save the buffer as an image file
+            const filename = `generated-${Date.now()}.jpg`;
+            const filepath = path.join(__dirname, "images", filename);
 
-            res.json({ outputUrl });
+            fs.writeFileSync(filepath, buffer);
+
+            // Send the downloadable URL to the client
+            res.json({ outputUrl: `/images/${filename}` });
         } else {
             throw new Error("Unexpected output format from Replicate API");
         }
@@ -62,6 +61,9 @@ app.post("/generate", async (req, res) => {
         res.status(500).json({ error: "Failed to generate design" });
     }
 });
+
+// Serve the images folder as static files
+app.use("/images", express.static(path.join(__dirname, "images")));
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
