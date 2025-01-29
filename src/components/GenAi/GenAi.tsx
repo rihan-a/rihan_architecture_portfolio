@@ -99,7 +99,9 @@ function GenAi() {
         <div className="idg-main">
             <NavBar />
             <div className="idg-container">
-                <h1 className="idg-title">GenAi - Interior Design Generator</h1>
+                <h1 className="idg-title">
+                    GenSpace AI – Your AI-Powered Interior Design Assistant!
+                </h1>
 
                 <textarea
                     className="idg-input"
