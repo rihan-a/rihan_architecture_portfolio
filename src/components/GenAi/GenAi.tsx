@@ -91,6 +91,12 @@ function GenAi() {
         setSelectedImage(item);
     };
 
+    const closeImageModal = (e: React.MouseEvent<HTMLDivElement>) => {
+        if ((e.target as HTMLDivElement).classList.contains("idg-modal")) {
+            setSelectedImage(null);
+        }
+    };
+
     return (
         <div className="idg-main">
             <NavBar />
@@ -158,6 +164,26 @@ function GenAi() {
                               </div>
                           ))}
                 </div>
+                {selectedImage && (
+                    <div className="idg-modal" onClick={closeImageModal}>
+                        <div className="idg-modal-content">
+                            <img
+                                src={selectedImage.imageUrl}
+                                alt="Selected"
+                                className="idg-modal-image"
+                            />
+                            <p className="idg-modal-caption">
+                                {selectedImage.prompt}
+                            </p>
+                            <button
+                                className="idg-close-button"
+                                onClick={() => setSelectedImage(null)}
+                            >
+                                X
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
         </div>
     );
