@@ -12,7 +12,7 @@ function NavBar() {
             </Link>
 
             <Link className="nav-bar-link ai" to="/genai">
-                GenAi-beta
+                GenSpace Ai
             </Link>
 
             <div className="navbar-logo">
