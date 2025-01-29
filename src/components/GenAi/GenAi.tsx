@@ -175,6 +175,8 @@ function GenAi() {
                                 alt="Selected"
                                 className="idg-modal-image"
                             />
+
+                            <p className="idg-modal-caption">Prompt:</p>
                             <p className="idg-modal-caption">
                                 {selectedImage.prompt}
                             </p>
