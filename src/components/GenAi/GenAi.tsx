@@ -9,6 +9,7 @@ function GenAi() {
     const [error, setError] = useState("");
     const [gallery, setGallery] = useState<any[]>([]);
     const [galleryLoading, setGalleryLoading] = useState(true);
+    const [selectedImage, setSelectedImage] = useState<any | null>(null);
 
     useEffect(() => {
         const fetchGallery = async () => {
@@ -57,6 +58,10 @@ function GenAi() {
             // Ensure data.outputUrl is a valid string
             if (typeof data.outputUrl === "string") {
                 setOutputUrl(data.outputUrl);
+                setGallery((prev) => [
+                    { prompt, imageUrl: data.outputUrl },
+                    ...prev,
+                ]);
             } else {
                 throw new Error(
                     "Invalid response format: outputUrl is not a string"
@@ -82,11 +87,15 @@ function GenAi() {
         }
     };
 
+    const handleImageClick = (item: any) => {
+        setSelectedImage(item);
+    };
+
     return (
         <div className="idg-main">
             <NavBar />
             <div className="idg-container">
-                <h1 className="idg-title">GenAi - Interior Design</h1>
+                <h1 className="idg-title">GenAi - Interior Design Generator</h1>
 
                 <textarea
                     className="idg-input"
@@ -124,6 +133,31 @@ function GenAi() {
                         </button>
                     </div>
                 )}
+                <h2 className="idg-gallery-title">Gallery</h2>
+                <div className="idg-gallery">
+                    {galleryLoading
+                        ? Array(6)
+                              .fill(0)
+                              .map((_, index) => (
+                                  <div
+                                      key={index}
+                                      className="idg-gallery-skeleton"
+                                  ></div>
+                              ))
+                        : gallery.map((item, index) => (
+                              <div
+                                  key={index}
+                                  className="idg-gallery-item"
+                                  onClick={() => handleImageClick(item)}
+                              >
+                                  <img
+                                      src={item.imageUrl}
+                                      alt="Gallery Item"
+                                      className="idg-gallery-image"
+                                  />
+                              </div>
+                          ))}
+                </div>
             </div>
         </div>
     );
