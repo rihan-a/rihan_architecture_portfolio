@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./GenAi.css";
 import NavBar from "../NavBar/NavBar";
 
@@ -7,6 +7,29 @@ function GenAi() {
     const [outputUrl, setOutputUrl] = useState<string | null>(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
+    const [gallery, setGallery] = useState<any[]>([]);
+    const [galleryLoading, setGalleryLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchGallery = async () => {
+            try {
+                const response = await fetch(
+                    `${process.env.REACT_APP_API_URL}/gallery`
+                );
+                if (!response.ok) {
+                    throw new Error("Failed to fetch gallery items");
+                }
+                const data = await response.json();
+                setGallery(data);
+            } catch (err) {
+                console.error(err);
+            } finally {
+                setGalleryLoading(false);
+            }
+        };
+
+        fetchGallery();
+    }, []);
 
     const generateDesign = async () => {
         setLoading(true);
