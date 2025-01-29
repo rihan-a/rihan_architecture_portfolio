@@ -12,7 +12,7 @@ function NavBar() {
             </Link>
 
             <Link className="nav-bar-link ai" to="/genai">
-                GenAi
+                GenAi-beta
             </Link>
 
             <div className="navbar-logo">
@@ -23,8 +23,8 @@ function NavBar() {
                 />
             </div>
 
-            <Link className="nav-bar-link ai" to="/ai">
-                Ai
+            <Link className="nav-bar-link" to="/ai">
+                Ai-Experiments
             </Link>
 
             <Link className="nav-bar-link" to="/about">
