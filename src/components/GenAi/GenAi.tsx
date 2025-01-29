@@ -8,8 +8,8 @@ function GenAi() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
     const [gallery, setGallery] = useState<any[]>([]);
-    const [galleryLoading, setGalleryLoading] = useState(true);
     const [selectedImage, setSelectedImage] = useState<any | null>(null);
+    const [galleryLoading, setGalleryLoading] = useState(true);
 
     useEffect(() => {
         const fetchGallery = async () => {
@@ -54,8 +54,6 @@ function GenAi() {
             }
 
             const data = await response.json();
-
-            // Ensure data.outputUrl is a valid string
             if (typeof data.outputUrl === "string") {
                 setOutputUrl(data.outputUrl);
                 setGallery((prev) => [
@@ -82,7 +80,7 @@ function GenAi() {
         if (outputUrl) {
             const link = document.createElement("a");
             link.href = outputUrl;
-            link.download = "design.jpg"; // Default filename for download
+            link.download = "rihan_design_generator.jpg";
             link.click();
         }
     };
@@ -106,9 +104,7 @@ function GenAi() {
                 <textarea
                     className="idg-input"
                     value={prompt}
-                    onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
-                        setPrompt(e.target.value)
-                    }
+                    onChange={(e) => setPrompt(e.target.value)}
                     placeholder="Enter your design idea..."
                     disabled={loading}
                     autoCorrect="on"
@@ -120,8 +116,13 @@ function GenAi() {
                     className="idg-button"
                     disabled={loading || !prompt.trim()}
                 >
-                    {loading ? "Generating..." : "Generate Design"}
+                    {loading ? (
+                        <div className="spinner"></div>
+                    ) : (
+                        "Generate Design"
+                    )}
                 </button>
+
                 {error && <p className="idg-error">{error}</p>}
                 {outputUrl && (
                     <div>
@@ -139,6 +140,7 @@ function GenAi() {
                         </button>
                     </div>
                 )}
+
                 <h2 className="idg-gallery-title">Gallery</h2>
                 <div className="idg-gallery">
                     {galleryLoading
@@ -164,6 +166,7 @@ function GenAi() {
                               </div>
                           ))}
                 </div>
+
                 {selectedImage && (
                     <div className="idg-modal" onClick={closeImageModal}>
                         <div className="idg-modal-content">
