@@ -18,9 +18,8 @@ function Ai() {
             <div className="sketch-txt-cover">
                 <h3 className="txt-cover-title">SKETCH2IMG Ai Model</h3>
                 <h3 className="txt-cover-desc">
-                    Simple sketch as an input plus a text prompt to endless
-                    possibilities, using Stable Diffuison Ai + ComfyUi +
-                    ControlNet
+                    Simple sketch as an input plus a text prompt, using Stable
+                    Diffuison Ai + ComfyUi + ControlNet
                 </h3>
             </div>
 
@@ -31,9 +30,8 @@ function Ai() {
             <div className="sketch-txt-cover">
                 <h3 className="txt-cover-title">IMG2IMG Ai Model</h3>
                 <h3 className="txt-cover-desc">
-                    Image as an input plus a text prompt to endless
-                    possibilities, using Stable Diffuison Ai + ComfyUi +
-                    ControlNet
+                    Image as an input plus a text prompt, using Stable Diffuison
+                    Ai + ComfyUi + ControlNet
                 </h3>
             </div>
 
@@ -50,7 +48,8 @@ function Ai() {
             <div className="sketch-txt-cover">
                 <h3 className="txt-cover-title">TXT2IMG Ai Model</h3>
                 <h3 className="txt-cover-desc">
-                    Promt as an input, using Stable Diffuison Ai + ComfyUi
+                    Promt as an input, using my own trained Model - Stable
+                    Diffuison Ai + ComfyUi
                 </h3>
             </div>
 
