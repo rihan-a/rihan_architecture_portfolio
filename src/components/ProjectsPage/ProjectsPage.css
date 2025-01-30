@@ -8,16 +8,14 @@
 }
 
 .projects-page-main-title h2 {
-    font-size: 4rem;
-    font-weight: 100;
     margin-bottom: 0px;
-    text-align: justify;
+
     color: black;
-    font-family: "Six Caps", sans-serif;
-    text-transform: uppercase;
-    font-style: unset;
-    font-variant: unset;
-    line-height: 1;
+    font-size: 2.4rem;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -26,6 +24,6 @@
     }
 
     .projects-page-main-title h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }

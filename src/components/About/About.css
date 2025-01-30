@@ -16,16 +16,14 @@
 }
 
 .about-page-main-title h2 {
-    font-size: 4rem;
-    font-weight: 100;
+    font-size: 2.4rem;
     margin-bottom: 0px;
     text-align: justify;
     color: black;
-    font-family: "Six Caps", sans-serif;
-    text-transform: uppercase;
-    font-style: unset;
-    font-variant: unset;
-    line-height: 1;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
 }
 
 .about-photo {
@@ -73,7 +71,7 @@
 
 @media (max-width: 768px) {
     .about-page-main-title h2 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .about-page-main-title {
         width: 90%;
