@@ -1,39 +1,30 @@
 import React, { useEffect, useState } from "react";
-import MouseIcon from "../MouseIcon/MouseIcon";
 import NavBar from "../NavBar/NavBar";
 import "./Cover.css";
 import coverImages from "../../coverImages.json";
+import { Link } from "react-router-dom";
 
 function Cover() {
-    const [coverUrl, setCoverUrl] = useState<string>("");
+    // const [coverUrl, setCoverUrl] = useState<string>("");
 
-    useEffect(() => {
-        let imageRandomNumber = Math.floor(Math.random() * 11);
-        const coverImageUrl = coverImages[0].coverImages[imageRandomNumber];
+    // useEffect(() => {
+    //     let imageRandomNumber = Math.floor(Math.random() * 11);
+    //     const coverImageUrl = coverImages[0].coverImages[imageRandomNumber];
 
-        setCoverUrl(coverImageUrl);
-    }, []);
+    //     setCoverUrl(coverImageUrl);
+    // }, []);
 
     return (
         <>
             <NavBar />
             <main className="cover-wrapper">
-                <div
-                    className="cover"
-                    style={{
-                        backgroundImage: `url("${coverUrl}")`,
-                    }}
-                >
-                    {/* <h1>PORTFOLIO</h1> */}
+                <a href="/genai">
                     <img
-                        className="cover-rihan-logo"
-                        src="/images/LOGO-2-W.png"
-                        alt="rihan logo"
+                        className="genspace-cover"
+                        src="https://rihanbucket.s3.us-east-1.amazonaws.com/genspace-ai/GenSpace+Ai.webp"
+                        alt="genspace ai cover"
                     />
-                </div>
-                {/* <div className="mouse-icon-row">
-                    <MouseIcon />
-                </div> */}
+                </a>
             </main>
         </>
     );

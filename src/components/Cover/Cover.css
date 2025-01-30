@@ -6,69 +6,28 @@
     height: 100vh;
 }
 
-.cover {
+.genspace-cover {
     width: 98%;
     height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: saturate(80%);
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: auto; */
+    margin: auto;
     margin-top: 3%;
 }
 
-.cover h1 {
-    margin-top: -20px;
-    font-size: 80vh;
-    font-family: "Six Caps", sans-serif;
-    font-weight: 100;
-    -webkit-font-smoothing: antialiased;
-    font-style: normal;
-    font-stretch: normal;
-    text-transform: none;
-    appearance: none;
-    /* color: rgb(16, 16, 16); */
-    color: rgb(255, 255, 255);
-}
-
-.mouse-icon-row {
-    bottom: 55px;
-    position: absolute;
-    height: 50px;
-    width: 100%;
-}
-
-.cover-rihan-logo {
-    display: none;
-}
-
 @media (max-width: 768px) {
-    /* .cover h1 {
-        margin-top: 120px;
-        width: 75%;
-        font-size: 72vw;
-        word-break: break-all;
-        line-height: 0.95;
-        text-align: start;
-        height: 100%;
-        display: none;
-    } */
-
     .cover {
         margin-top: 12%;
     }
 
-    .cover-rihan-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
+    .cover-wrapper {
+        height: 90vh;
     }
-
-    .mouse-icon-row {
-        bottom: 35px;
+    .genspace-cover {
+        content: url("https://rihanbucket.s3.us-east-1.amazonaws.com/genspace-ai/genspace-ai-phone.webp");
     }
 }
