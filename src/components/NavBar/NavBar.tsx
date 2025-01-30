@@ -1,20 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router";
+import { NavLink } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router";
+import { FiMenu, FiX } from "react-icons/fi";
 
 function NavBar() {
     const navigate = useNavigate();
+    const location = useLocation();
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <nav className="nav-bar">
-            <Link className="nav-bar-link" to="/projects">
-                Projects
-            </Link>
-
-            <Link className="nav-bar-link ai" to="/genai">
-                GenSpace Ai
-            </Link>
-
             <div className="navbar-logo">
                 <img
                     src="/images/LOGO-2-B.png"
@@ -23,13 +19,48 @@ function NavBar() {
                 />
             </div>
 
-            <Link className="nav-bar-link" to="/ai">
-                Ai-Experiments
-            </Link>
+            <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+                {menuOpen ? <FiX /> : <FiMenu />}
+            </div>
 
-            <Link className="nav-bar-link" to="/about">
-                About
-            </Link>
+            <div className={`nav-links ${menuOpen ? "open" : ""}`}>
+                <NavLink
+                    className={({ isActive }) =>
+                        isActive ? "nav-bar-link active" : "nav-bar-link"
+                    }
+                    to="/projects"
+                    onClick={() => setMenuOpen(false)}
+                >
+                    Projects
+                </NavLink>
+                <NavLink
+                    className={({ isActive }) =>
+                        isActive ? "nav-bar-link ai active" : "nav-bar-link ai"
+                    }
+                    to="/genai"
+                    onClick={() => setMenuOpen(false)}
+                >
+                    GenSpace Ai
+                </NavLink>
+                <NavLink
+                    className={({ isActive }) =>
+                        isActive ? "nav-bar-link active" : "nav-bar-link"
+                    }
+                    to="/ai"
+                    onClick={() => setMenuOpen(false)}
+                >
+                    Ai-Experiments
+                </NavLink>
+                <NavLink
+                    className={({ isActive }) =>
+                        isActive ? "nav-bar-link active" : "nav-bar-link"
+                    }
+                    to="/about"
+                    onClick={() => setMenuOpen(false)}
+                >
+                    About
+                </NavLink>
+            </div>
         </nav>
     );
 }
