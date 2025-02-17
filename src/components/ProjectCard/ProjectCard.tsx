@@ -23,7 +23,7 @@ function ProjectCard({ coverImg, title, id }: IProps) {
     return (
         <div className="project-card-container" onClick={openProject}>
             <div className="project-card-img">
-                <img src={coverImg} alt="" />
+                <img src={coverImg} alt={`${title} project`} loading="lazy" />
             </div>
             <div className="project-title">
                 <h4>{title}</h4>
