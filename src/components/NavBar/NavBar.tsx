@@ -35,21 +35,12 @@ function NavBar() {
                 </NavLink>
                 <NavLink
                     className={({ isActive }) =>
-                        isActive ? "nav-bar-link ai active" : "nav-bar-link ai"
-                    }
-                    to="https://imagine-ai-app.vercel.app"
-                    onClick={() => setMenuOpen(false)}
-                >
-                    GenSpace Ai - Beta
-                </NavLink>
-                <NavLink
-                    className={({ isActive }) =>
-                        isActive ? "nav-bar-link  active" : "nav-bar-link"
+                        isActive ? "nav-bar-link  active" : "nav-bar-link ai"
                     }
                     to="/genai"
                     onClick={() => setMenuOpen(false)}
                 >
-                    GenSpace Ai Gallery
+                    GenSpace Ai
                 </NavLink>
                 <NavLink
                     className={({ isActive }) =>
