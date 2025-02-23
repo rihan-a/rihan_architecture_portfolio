@@ -11,6 +11,7 @@ function GenAi() {
     const [gallery, setGallery] = useState<any[]>([]);
     const [selectedImage, setSelectedImage] = useState<any | null>(null);
     const [galleryLoading, setGalleryLoading] = useState(true);
+    const [modalImage, setModalImage] = useState<string | undefined>(undefined);
 
     useEffect(() => {
         const fetchGallery = async () => {
@@ -88,6 +89,7 @@ function GenAi() {
 
     const handleImageClick = (item: any) => {
         setSelectedImage(item);
+        setModalImage(undefined);
     };
 
     const closeImageModal = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -183,19 +185,49 @@ function GenAi() {
                                 )}
                             </span>
                             <img
-                                src={selectedImage.imageUrl}
-                                alt="Selected"
+                                src={modalImage ?? selectedImage.imageUrl}
+                                alt="ai generated"
                                 className="idg-modal-image"
                             />
 
-                            <p className="idg-modal-caption">Prompt:</p>
                             <p className="idg-modal-caption">
                                 {selectedImage.prompt}
                             </p>
-                            <button className="before-btn bf-btn">
-                                Before
-                            </button>
-                            <button className="after-btn  bf-btn">After</button>
+
+                            {selectedImage.originalImage && (
+                                <div className="before-after-container">
+                                    <button
+                                        className={`before-btn  bfaf-btn ${
+                                            modalImage ===
+                                            selectedImage.originalImage
+                                                ? "bfaf-active"
+                                                : " "
+                                        }`}
+                                        onClick={() =>
+                                            setModalImage(
+                                                selectedImage.originalImage
+                                            )
+                                        }
+                                    >
+                                        Before
+                                    </button>
+                                    <button
+                                        className={`after-btn  bfaf-btn ${
+                                            modalImage ===
+                                            selectedImage.imageUrl
+                                                ? "bfaf-active"
+                                                : " "
+                                        }`}
+                                        onClick={() =>
+                                            setModalImage(
+                                                selectedImage.imageUrl
+                                            )
+                                        }
+                                    >
+                                        After
+                                    </button>
+                                </div>
+                            )}
 
                             <button
                                 className="idg-close-button"
