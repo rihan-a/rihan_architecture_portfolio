@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import "./NavBar.css";
 import { NavLink } from "react-router-dom";
-import { useNavigate, useLocation } from "react-router";
-import { FiMenu, FiX } from "react-icons/fi";
+import { useNavigate } from "react-router";
 
 function NavBar() {
     const navigate = useNavigate();
-    const location = useLocation();
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
@@ -20,7 +18,11 @@ function NavBar() {
             </div>
 
             <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-                {menuOpen ? <FiX /> : <FiMenu />}
+                {menuOpen ? (
+                    <span className="material-symbols-outlined">close</span>
+                ) : (
+                    <span className="material-symbols-outlined">menu</span>
+                )}
             </div>
 
             <div className={`nav-links ${menuOpen ? "open" : ""}`}>
