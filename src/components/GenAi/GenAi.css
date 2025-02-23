@@ -125,9 +125,11 @@
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 7px;
     margin-top: 20px;
+    width: 100%;
 }
 
 .idg-gallery-item {
+    width: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 2px;
@@ -191,14 +193,19 @@
 
 .idg-modal-content {
     padding: 20px;
-    border-radius: 12px;
-    max-width: 70%;
-    max-height: 90%;
+    border-radius: 8px;
+    width: 80%;
     position: relative;
     text-align: center;
     position: relative;
 }
 
+.idg-modal-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
 .modal-date {
     position: absolute;
     top: 30px;
@@ -207,20 +214,26 @@
     font-size: 0.8rem;
 }
 
-.idg-modal-image {
-    max-width: 100%;
-    max-height: 80vh;
-    border-radius: 8px;
+.before-after-container {
+    margin: auto;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .idg-modal-caption {
+    margin: auto;
+    padding: 10px;
+    width: 95%;
+    position: absolute;
+    bottom: 20px;
     text-align: left;
     font-size: 1rem;
-    color: #ffffff;
-    margin-top: 10px;
+    color: #000000;
 }
 
-.bf-btn {
+.bfaf-btn {
     position: absolute;
     background-color: #ffffffd3;
     top: 15px;
@@ -230,10 +243,19 @@
     border-radius: 4px;
     text-align: center;
     padding: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
+.bfaf-btn:hover {
+    background-color: #a6a6a6;
+}
 .before-btn {
     margin-right: 85px;
+}
+
+.bfaf-active {
+    background-color: #002affc4;
 }
 
 .idg-close-button {
@@ -264,16 +286,34 @@
     }
 
     .idg-gallery-item {
-        width: 95%;
+        width: 100%;
     }
 
     .idg-modal-content {
-        max-width: 100%;
+        width: 100%;
         max-height: 90%;
     }
 
     .idg-modal-image {
+        width: 100%;
         border-radius: 5px;
+    }
+
+    .idg-modal-caption {
+        position: unset;
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+        color: #ffffff9c;
+    }
+    .modal-date {
+        top: -5px;
+        left: 30px;
+        color: rgba(255, 255, 255, 0.61);
+        font-size: 0.8rem;
+    }
+    .before-btn {
+        margin-right: 0px;
     }
 
     .idg-close-button {
@@ -281,5 +321,13 @@
         font-size: 1rem;
         width: 30px;
         height: 30px;
+    }
+
+    .bfaf-btn {
+        position: unset;
+        background-color: #ffffffd3;
+        width: 75px;
+        height: 45px;
+        border-radius: 4px;
     }
 }
