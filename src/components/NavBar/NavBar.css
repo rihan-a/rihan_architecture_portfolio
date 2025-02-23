@@ -66,6 +66,13 @@
     background-color: rgba(169, 169, 169, 0.249);
 }
 
+.material-symbols-outlined {
+    font-size: 45px; /* Adjust size */
+    color: #000000; /* Adjust color */
+    vertical-align: middle;
+    transition: all 1s ease-out;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     .menu-toggle {
