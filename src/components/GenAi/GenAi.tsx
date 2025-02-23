@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./GenAi.css";
 import NavBar from "../NavBar/NavBar";
 import { format } from "date-fns";
+import PromptStructure from "../PromptStructure/PromptStructure";
 
 function GenAi() {
     const [prompt, setPrompt] = useState("");
@@ -129,6 +130,9 @@ function GenAi() {
                 </button>
 
                 {error && <p className="idg-error">{error}</p>}
+
+                <PromptStructure />
+
                 {outputUrl && (
                     <div>
                         <h2 className="idg-subtitle">Generated Design:</h2>
