@@ -13,6 +13,7 @@
         "@types/react-dom": "^18.0.10",
         "@vercel/analytics": "^0.1.10",
         "@vercel/speed-insights": "^1.1.0",
+        "date-fns": "^4.1.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-icons": "^5.4.0",
