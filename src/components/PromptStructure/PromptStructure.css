@@ -1,0 +1,37 @@
+.prompt-guide {
+    margin-top: 8px;
+    padding: 12px;
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.prompt-guide__title {
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.prompt-guide__structure {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.prompt-guide__element {
+    padding: 4px 8px;
+    background-color: #e1effe;
+    border-radius: 4px;
+}
+
+.prompt-guide__operator {
+    color: #4a5568;
+}
+
+.prompt-guide__example {
+    text-align: left;
+    margin-top: 12px;
+    font-style: italic;
+    color: #4a5568;
+}
