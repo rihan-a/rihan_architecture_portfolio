@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./GenAi.css";
 import NavBar from "../NavBar/NavBar";
+import { format } from "date-fns";
 
 function GenAi() {
     const [prompt, setPrompt] = useState("");
@@ -143,7 +144,7 @@ function GenAi() {
                     </div>
                 )}
 
-                <h2 className="idg-gallery-title">Gallery</h2>
+                <h2 className="idg-gallery-title">User Gallery</h2>
                 <div className="idg-gallery">
                     {galleryLoading
                         ? Array(6)
@@ -160,6 +161,9 @@ function GenAi() {
                                   className="idg-gallery-item"
                                   onClick={() => handleImageClick(item)}
                               >
+                                  <span className="img-number">
+                                      #{gallery.length - index}
+                                  </span>
                                   <img
                                       src={item.imageUrl}
                                       alt="Gallery Item"
@@ -172,6 +176,12 @@ function GenAi() {
                 {selectedImage && (
                     <div className="idg-modal" onClick={closeImageModal}>
                         <div className="idg-modal-content">
+                            <span className="modal-date">
+                                {format(
+                                    new Date(selectedImage.createdAt),
+                                    "dd-MM-yyyy 'at' hh:mm a"
+                                )}
+                            </span>
                             <img
                                 src={selectedImage.imageUrl}
                                 alt="Selected"
@@ -182,6 +192,11 @@ function GenAi() {
                             <p className="idg-modal-caption">
                                 {selectedImage.prompt}
                             </p>
+                            <button className="before-btn bf-btn">
+                                Before
+                            </button>
+                            <button className="after-btn  bf-btn">After</button>
+
                             <button
                                 className="idg-close-button"
                                 onClick={() => setSelectedImage(null)}
