@@ -216,6 +216,21 @@ function GenAi() {
                                         Before
                                     </button>
                                     <button
+                                        className={`mask-btn  bfaf-btn ${
+                                            modalImage ===
+                                            selectedImage.maskImage
+                                                ? "bfaf-active"
+                                                : " "
+                                        }`}
+                                        onClick={() =>
+                                            setModalImage(
+                                                selectedImage.maskImage
+                                            )
+                                        }
+                                    >
+                                        Mask
+                                    </button>
+                                    <button
                                         className={`after-btn  bfaf-btn ${
                                             modalImage ===
                                             selectedImage.imageUrl
