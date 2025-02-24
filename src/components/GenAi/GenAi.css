@@ -15,11 +15,8 @@
 /* Container */
 .idg-container {
     margin-top: 100px;
-    width: 96%;
-    background-color: #f9f9f9;
+    width: 98%;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    padding: 24px;
     text-align: center;
 }
 
@@ -198,13 +195,13 @@
     position: relative;
     text-align: center;
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 .idg-modal-image {
     width: 100%;
     aspect-ratio: 16 / 9;
     border-radius: 8px;
-    transition: all 0.3s ease-in-out;
 }
 .modal-date {
     position: absolute;
@@ -215,8 +212,11 @@
 }
 
 .before-after-container {
+    position: absolute;
+    top: 15px;
+    right: 90px;
     margin: auto;
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,10 +234,7 @@
 }
 
 .bfaf-btn {
-    position: absolute;
     background-color: #ffffffd3;
-    top: 15px;
-    right: 90px;
     width: 75px;
     height: 45px;
     border-radius: 4px;
@@ -250,9 +247,9 @@
 .bfaf-btn:hover {
     background-color: #a6a6a6;
 }
-.before-btn {
+/* .before-btn {
     margin-right: 85px;
-}
+} */
 
 .bfaf-active {
     background-color: #002affc4;
@@ -271,7 +268,7 @@
     font-size: 1.5rem;
     width: 50px;
     height: 45px;
-    transition: background 0.2s ease;
+    transition: background 0.9s ease;
 }
 
 .idg-close-button:hover {
@@ -282,13 +279,11 @@
 @media (max-width: 768px) {
     .idg-container {
         margin-top: 70px;
-        width: 100%;
     }
 
-    .idg-gallery-item {
-        width: 100%;
+    .idg-gallery {
+        overflow: hidden;
     }
-
     .idg-modal-content {
         width: 100%;
         max-height: 90%;
@@ -297,6 +292,10 @@
     .idg-modal-image {
         width: 100%;
         border-radius: 5px;
+    }
+
+    .before-after-container {
+        position: unset;
     }
 
     .idg-modal-caption {
@@ -324,7 +323,6 @@
     }
 
     .bfaf-btn {
-        position: unset;
         background-color: #ffffffd3;
         width: 75px;
         height: 45px;
