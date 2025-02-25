@@ -3,14 +3,9 @@ import "./Ai.css";
 import aiImages from "../../ai-images.json";
 
 function Ai() {
-    // extract project id from params
-
     return (
         <>
             <NavBar />
-
-            {/* -----  Render project images ------ */}
-
             <section className="ai-page-main-title">
                 <h2>Generative Ai Experiments in Architecture</h2>
             </section>
@@ -38,12 +33,6 @@ function Ai() {
             <section className="ai-cover-container img2img">
                 <img src="/images/img2img.webp" alt="img2img ai" />
             </section>
-            {/* <section className="ai-cover-container img2img gif">
-                <img
-                    src="https://rihanbucket.s3.amazonaws.com/AI/img2img-gif.webp"
-                    alt="img2img ai"
-                />
-            </section> */}
 
             <div className="sketch-txt-cover">
                 <h3 className="txt-cover-title">TXT2IMG Ai Model</h3>
@@ -52,13 +41,6 @@ function Ai() {
                     Diffuison Ai + ComfyUi
                 </h3>
             </div>
-
-            {/* <section className="ai-cover-container img2img gif">
-                <img
-                    src="https://rihanbucket.s3.amazonaws.com/AI/txt2img-interior-gif.webp"
-                    alt="txt2img ai"
-                />
-            </section> */}
 
             <section className="ai-gallery">
                 {aiImages[0].aiImages
@@ -74,8 +56,6 @@ function Ai() {
                         );
                     })}
             </section>
-
-            {/* -----  Render project videos ------ */}
         </>
     );
 }
