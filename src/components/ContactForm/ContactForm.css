@@ -15,7 +15,7 @@ button {
     margin-bottom: 15px;
     padding-left: 10px;
     font-size: 1rem;
-    background-color: rgb(217, 217, 217);
+    background-color: rgba(217, 217, 217, 0.558);
 }
 .contact-form textarea {
     padding-top: 10px;
