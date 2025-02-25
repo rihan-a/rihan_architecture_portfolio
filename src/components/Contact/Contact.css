@@ -47,12 +47,12 @@
     }
 
     .contact-msg {
-        width: 90%;
+        width: 80%;
         height: 100%;
         margin: auto;
     }
     .contact-msg h3 {
-        font-size: 6.4rem;
+        font-size: 3rem;
         text-align: center;
     }
     .contact-form-container {
