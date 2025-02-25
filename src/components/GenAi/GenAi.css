@@ -279,6 +279,7 @@
 @media (max-width: 768px) {
     .idg-container {
         margin-top: 70px;
+        width: 95%;
     }
 
     .idg-gallery {
