@@ -3,6 +3,7 @@ import "./GenAi.css";
 import NavBar from "../NavBar/NavBar";
 import { format } from "date-fns";
 import PromptStructure from "../PromptStructure/PromptStructure";
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 
 function GenAi() {
     const [prompt, setPrompt] = useState("");
@@ -178,6 +179,7 @@ function GenAi() {
                               </div>
                           ))}
                 </div>
+                <ScrollToTopButton />
 
                 {selectedImage && (
                     <div className="idg-modal" onClick={closeImageModal}>
