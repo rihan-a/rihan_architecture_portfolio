@@ -100,7 +100,7 @@
 
 @media (max-width: 768px) {
     .ai-page-main-title {
-        width: 90%;
+        width: 95%;
         margin: 70px auto 30px;
     }
 
@@ -110,7 +110,7 @@
 
     .ai-cover-container {
         flex-direction: column;
-        width: 90%;
+        width: 95%;
     }
 
     .sketch-txt-cover .txt-cover-title {
@@ -124,12 +124,12 @@
     .sketch-txt-cover {
         margin-top: 10px;
         margin-bottom: 10px;
-        width: 90%;
+        width: 95%;
         position: relative;
     }
 
     .ai-gallery {
-        width: 98%;
+        width: 95%;
     }
     .gallery-ai-img {
         width: 100%;
@@ -137,19 +137,8 @@
         margin-top: 10px;
     }
 
-    .gif {
-        border-radius: 6px;
-        width: 90%;
-        width: unset;
-        height: unset;
-    }
-
-    .gif img {
-        padding: 0px;
-        border-radius: 6px;
-    }
     .ai-cover-container {
-        width: 98%;
+        width: 95%;
         margin-top: 0px;
     }
 
