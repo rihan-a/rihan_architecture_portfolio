@@ -7,16 +7,12 @@
 }
 
 .genspace-cover {
-    width: 98%;
-    height: 90%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
+    width: 85%;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 3%;
 }
 
 @media (max-width: 768px) {
