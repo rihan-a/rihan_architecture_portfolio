@@ -17,7 +17,6 @@
     margin-top: 100px;
     width: 98%;
     border-radius: 12px;
-    text-align: center;
 }
 
 /* Title */
@@ -60,8 +59,9 @@
 /* Buttons */
 .idg-button,
 .idg-download-button {
-    margin-left: 0px;
+    margin: 10px 0;
     width: 200px;
+    height: 50px;
     background-color: #0e0f0e;
     color: white;
     padding: 10px 15px;
