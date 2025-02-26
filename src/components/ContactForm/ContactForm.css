@@ -3,8 +3,7 @@
 }
 
 .contact-form input,
-textarea,
-button {
+textarea {
     display: block;
     margin: auto;
     width: 75%;
@@ -17,6 +16,20 @@ button {
     font-size: 1rem;
     background-color: rgba(217, 217, 217, 0.558);
 }
+.contact-form-btn {
+    display: block;
+    margin: auto;
+    width: 75%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 1rem;
+    background-color: rgba(217, 217, 217, 0.558);
+}
+
 .contact-form textarea {
     padding-top: 10px;
     height: 130px;
