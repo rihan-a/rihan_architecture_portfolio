@@ -1,0 +1,339 @@
+/* General Styles */
+.idg-main {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container */
+.idg-container {
+    margin-top: 100px;
+    width: 98%;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Title */
+.idg-title {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #222222;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+/* Input */
+.idg-input {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+    resize: vertical;
+}
+
+.idg-input:focus {
+    border-color: #888888;
+    box-shadow: 0 0 4px rgba(136, 136, 136, 0.5);
+    outline: none;
+}
+
+.idg-image {
+    width: 100%;
+    margin-top: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.idg-button,
+.idg-download-button {
+    margin-left: 0px;
+    width: 200px;
+    background-color: #0e0f0e;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.idg-button:hover,
+.idg-download-button:hover {
+    background-color: #575757;
+}
+
+.idg-button:disabled {
+    background-color: #f0f0f0;
+    color: #999999;
+    cursor: not-allowed;
+}
+
+/* Loading Spinner */
+.spinner {
+    border: 4px solid rgba(190, 38, 14, 0.1);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-left-color: #ff0000;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Error Message */
+.idg-error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}
+
+/* Gallery */
+.idg-gallery-title {
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.idg-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 7px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.idg-gallery-item {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.idg-gallery-item:hover {
+    transform: scale(1.015);
+}
+
+.idg-gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.img-number {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    color: rgba(255, 255, 255, 0.576);
+    font-size: 0.75rem;
+}
+
+/* Skeleton Loading Effect */
+.idg-gallery-skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #9b9b9b 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Modal */
+.idg-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.469);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(2px);
+}
+
+.idg-modal-content {
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    position: relative;
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.idg-modal-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 8px;
+}
+.modal-date {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 0.8rem;
+}
+
+.before-after-container {
+    position: absolute;
+    top: 27px;
+    right: 90px;
+    margin: auto;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.idg-modal-caption {
+    margin: auto;
+    padding: 10px;
+    width: 95%;
+    position: absolute;
+    bottom: 20px;
+    text-align: left;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.bfaf-btn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: none;
+    background-color: #ffffffd3;
+    width: 75px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.bfaf-btn:hover {
+    background-color: #a6a6a6;
+}
+/* .before-btn {
+    margin-right: 85px;
+} */
+
+.bfaf-active {
+    background-color: #002affc4;
+}
+
+.idg-close-button {
+    position: absolute;
+    top: 27px;
+    right: 25px;
+    background-color: #0000005d;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 45px;
+    transition: background 0.9s ease;
+}
+
+.idg-close-button:hover {
+    background-color: #0b0b0b;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .idg-container {
+        margin-top: 70px;
+        width: 95%;
+    }
+
+    .idg-gallery {
+        overflow: hidden;
+    }
+    .idg-modal-content {
+        width: 100%;
+        max-height: 90%;
+    }
+
+    .idg-modal-image {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .before-after-container {
+        position: unset;
+    }
+
+    .idg-modal-caption {
+        position: unset;
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+        color: #ffffff9c;
+    }
+    .modal-date {
+        top: -5px;
+        left: 30px;
+        color: rgba(255, 255, 255, 0.61);
+        font-size: 0.8rem;
+    }
+    .before-btn {
+        margin-right: 0px;
+    }
+
+    .idg-close-button {
+        padding: 6px;
+        font-size: 1rem;
+        width: 30px;
+        height: 30px;
+    }
+
+    .bfaf-btn {
+        background-color: #ffffffd3;
+        width: 75px;
+        height: 45px;
+        border-radius: 4px;
+    }
+}
