@@ -108,7 +108,7 @@ function GenAi() {
         <div className="idg-main">
             <div className="idg-container">
                 <h1 className="idg-title">
-                    AI-Powered Interior Design Assistant!
+                    AI-Powered Interior Design Assistant
                 </h1>
 
                 {/* <ChatBot onPromptGenerated={handlePromptGenerated} /> */}
