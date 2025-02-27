@@ -284,6 +284,10 @@
 }
 
 @media (max-width: 768px) {
+    .idg-title {
+        font-size: 2rem;
+    }
+
     .idg-container {
         margin-top: 70px;
         width: 95%;
