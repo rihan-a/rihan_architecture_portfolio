@@ -19,6 +19,7 @@
 
 @media (max-width: 768px) {
     .projects-page-main-title {
+        margin: 70px auto 30px;
         width: 95%;
     }
 
