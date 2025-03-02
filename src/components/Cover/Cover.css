@@ -21,9 +21,10 @@
     }
 
     .cover-wrapper {
-        height: 90vh;
+        height: 95vh;
     }
     .genspace-cover {
+        width: 98%;
         content: url("https://rihanbucket.s3.us-east-1.amazonaws.com/genspace-ai/genspace-ai-phone.webp");
     }
 }
