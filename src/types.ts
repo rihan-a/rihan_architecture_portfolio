@@ -11,3 +11,12 @@ export interface projectInterface {
     images: string[];
     videos?: string[];
 }
+
+export interface GalleryItem {
+    id?: string;
+    prompt: string;
+    imageUrl: string;
+    createdAt?: string;
+    originalImage?: string;
+    maskImage?: string;
+}
