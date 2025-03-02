@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import ProjectDetails from "../../components/ProjectDetails/ProjectDetails";
 import projects from "../../projects.json";
 import "./Project.css";
-import { projectInterface } from "../../projectInterface";
+import { projectInterface } from "../../types";
 
 function Project() {
     // extract project id from params
