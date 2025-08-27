@@ -2,6 +2,7 @@
 // Component to render all project details
 
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./ProjectDetails.css";
 
 interface IProps {
@@ -20,11 +21,26 @@ interface IProps {
 }
 
 function ProjectDetails({ projectData }: IProps) {
+    const navigate = useNavigate();
+
+    const handleBackClick = () => {
+        navigate('/projects');
+    };
+
     return (
         <section className="project-wrapper">
             <div className="project-text-wrapper main-container">
-                <div className="project-name">
-                    <h3>{projectData.title}</h3>
+                <div className="project-header">
+                    <div className="project-name">
+                        <h3>{projectData.title}</h3>
+                    </div>
+                    <button 
+                        className="back-button" 
+                        onClick={handleBackClick}
+                        aria-label="Back to projects"
+                    >
+                        ×
+                    </button>
                 </div>
 
                 <div className="project-desc">
