@@ -174,6 +174,39 @@
     }
 }
 
+/* Add these styles after the existing .idg-gallery-skeleton styles */
+
+.idg-gallery-error {
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    font-size: 14px;
+    text-align: center;
+}
+
+.idg-gallery-error span {
+    padding: 20px;
+}
+
+.idg-gallery-image.loading {
+    opacity: 0;
+}
+
+.idg-gallery-image.loaded {
+    opacity: 1;
+}
+
+/* Smooth transition for image loading */
+.idg-gallery-image {
+    transition: opacity 0.3s ease-in-out;
+}
+
 /* Modal */
 .idg-modal {
     position: fixed;
