@@ -58,7 +58,7 @@ function About() {
                         leveraging technology to create impactful solutions,
                         from smart applications to AI-powered tools. My journey
                         reflects a dedication to lifelong learning,
-                        adaptability, and pushing boundaries—qualities I bring
+                        adaptability, and pushing boundaries, are qualities I bring
                         to every project and team I join.
                     </p>
                     <button className="btn-contact" onClick={handleClick}>
