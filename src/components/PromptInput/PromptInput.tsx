@@ -1,4 +1,3 @@
-// components/PromptInput.tsx
 import React from "react";
 
 interface PromptInputProps {
