@@ -161,13 +161,13 @@
     {
         "id": 8,
         "title": "EMERGING HABITAT",
-        "desc": "A Home-inspired office building for the new RKW Düsseldorf headquarters. The expanding RKW family needed a new house, for a growing team, which now includes 300 staff members, everything that the home requires a living room, a dining room, sofas for the whole house to sit together. This was also a chance to capture how they work and function as an office, then tailor-make new spaces that would boost the working methods and output efficient spaces that enhance the collaborative ways and more communication.",
+        "desc": "Kiribati is one of the world’s most vulnerable nations to the effects of climate change and in danger of being submerged completely, an island nation in the central tropical Pacific Ocean, composed of 32 ring-shaped atolls and one raised coral island. The research is proposing a new opportunity for the people of Kiribati to preserve their culture, identity, and land. The design proposal envisions a strategy of giving the land back to the people of Kiribati. The goal was to create an alternative for a living, by using local materials as much as possible, the minimum amount of energy and on-site fabrication that would reduce the costs substantially. The master plan would make it self-sufficient (water collectors, farms) and would help the island become an attraction point with the help of tourism.",
         "year": 2014,
         "location": "KIRIBATI ISLANDS",
         "client": "DIA DESSAU INSITUTE OF ARCHITECTURE",
         "phase": "Concept",
-        "role": "Computional Designer",
-        "programme": "Digital",
+        "role": "Student Project",
+        "programme": "Digital design",
         "images": [
             "https://rihanbucket.s3.amazonaws.com/emerginghabitat/b3.jpg",
             "https://rihanbucket.s3.amazonaws.com/emerginghabitat/a22.jpg",
@@ -207,7 +207,7 @@
     {
         "id": 10,
         "title": "DEUTSCHER GARTEN / FLORIADE EXPO 2022",
-        "desc": "Following the theme of flora and in line with our general philosophy, landscape and building form a strong unity. This is most evident in the visitor’s experience landscape and building are perceived as a unity and merge smoothly into eachother. building onlypartlyclosed, foundation only partly, climatic unity, formal-aesthetic/design. In addition, the building and the landscape form a functional unity and work closely together in a symbiotic relationship.",
+        "desc": "Following the theme of floraiade, the landscape and building form a strong unity. This is most evident in the visitor’s experience landscape and building are perceived as a unity and merge smoothly into eachother. building onlypartlyclosed, foundation only partly, climatic unity, formal-aesthetic/design. In addition, the building and the landscape form a functional unity and work closely together in a symbiotic relationship.",
         "year": 2021,
         "location": "Amsterdam, Netherlands",
         "client": "LAVA Berlin",
